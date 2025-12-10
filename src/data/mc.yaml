@@ -1,4 +1,4 @@
-# 2025-11-10 00:14:19
+# 2025-12-10 15:32:23
 - index: 1
   name: WAR
   palettes:
@@ -21040,10 +21040,10 @@
       - ''
       - ''
     - index: 9
-      title: ''
+      title: 攻撃力48
       lines:
-      - ''
-      - ''
+      - 【/equipset】 57 echo 【ファントムロール】
+      - /ja 【カオスロール】 <me>
       - ''
       - ''
       - ''
@@ -21130,10 +21130,10 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: ストア26
       lines:
-      - ''
-      - ''
+      - 【/equipset】 57 echo 【ファントムロール】
+      - /ja 【サムライロール】 <me>
       - ''
       - ''
       - ''
@@ -25522,7 +25522,7 @@
       - ''
       - ''
 - index: 15
-  name: BSTPUP
+  name: BSTPUPSAM
   palettes:
   - index: 1
     macros:
@@ -26518,9 +26518,9 @@
       - ''
       - ''
     - index: 10
-      title: マーズ
+      title: ''
       lines:
-      - /item マーズオーブ <t>
+      - ''
       - ''
       - ''
       - ''
@@ -26691,9 +26691,9 @@
       - ''
       - ''
     - index: 9
-      title: トレハン
+      title: ''
       lines:
-      - 【/equipset】 92 echo TH
+      - ''
       - ''
       - ''
       - ''
@@ -26812,12 +26812,12 @@
     - index: 2
       title: デプロイ
       lines:
+      - 【/equip】 【頭】 【ヘルクリアヘルム】 2
+      - 【/equip】 【両脚】 【ヴォルトホーズ】
+      - 【/equip】 【両足】 【ヴォルトブーツ】
       - /ja 【ディプロイ】 <t>
-      - 【/echo】 HP:<pethpp> MP:<petmpp>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/echo】 HP:<pethpp> MP:<petmpp> <wait>
+      - 【/equipset】 91 echo 【大車輪】
     - index: 3
       title: 光マニュ
       lines:
@@ -26857,11 +26857,11 @@
     - index: 7
       title: ビクスマ
       lines:
-      - 【/equip】 【頭】 【ブリスタサリット+1】
-      - 【/equip】 【首】 【フォシャゴルゲット】
-      - 【/equip】 【腰】 【フォシャベルト】
+      - 【/equipset】 92 echo 【ビクトリースマイト】
+      - 【/checkparam】 <me>
       - /ws 【ビクトリースマイト】 <t> <wait>
       - 【/equipset】 91 echo 【大車輪】
+      - ''
       - ''
     - index: 8
       title: スペジグ
@@ -26885,11 +26885,11 @@
       title: ディア２
       lines:
       - /ma 【ディア】II <t>
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equip】 【頭】 【無の面】
+      - 【/equip】 【胴】 【アダマンアーマー】
+      - 【/equip】 【両手】 【ニャメガントレ】
+      - 【/equip】 【両脚】 【ニャメフランチャ】
+      - 【/equip】 【両足】 【ニャメソルレット】
     - index: 11
       title: 大車輪
       lines:
@@ -26900,14 +26900,14 @@
       - ''
       - ''
     - index: 12
-      title: リトリ
+      title: ★防御
       lines:
-      - /ja 【リトリーブ】 <me>
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/echo】 防御
+      - 【/equip】 【頭】 【無の面】
+      - 【/equip】 【胴】 【アダマンアーマー】
+      - 【/equip】 【両手】 【ニャメガントレ】
+      - 【/equip】 【両脚】 【ニャメフランチャ】
+      - 【/equip】 【両足】 【ニャメソルレット】
     - index: 13
       title: Aフラ
       lines:
@@ -26927,9 +26927,9 @@
       - ''
       - ''
     - index: 15
-      title: ''
+      title: リトリ
       lines:
-      - ''
+      - /ja 【リトリーブ】 <me>
       - ''
       - ''
       - ''
@@ -26947,11 +26947,11 @@
     - index: 17
       title: ビクスマ
       lines:
-      - 【/equip】 【頭】 【ブリスタサリット+1】
-      - 【/equip】 【首】 【フォシャゴルゲット】
-      - 【/equip】 【腰】 【フォシャベルト】
+      - 【/equipset】 92 echo 【ビクトリースマイト】
+      - 【/checkparam】 <me>
       - /ws 【ビクトリースマイト】 <t> <wait>
       - 【/equipset】 91 echo 【大車輪】
+      - ''
       - ''
     - index: 18
       title: ★移動
@@ -26963,23 +26963,23 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: Lock91
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-    - index: 20
-      title: Lock189
-      lines:
-      - 【/lockstyleset】 189
+      - 【/lockstyleset】 91
       - /blockhelp on
       - ''
       - ''
       - ''
       - ''
+    - index: 20
+      title: Oイオリ
+      lines:
+      - 【/equipset】 7 echo 【シーフ】【ファストキャスト】
+      - /ma ヴァレンラール <me> <wait 5>
+      - /ma セルテウス <me> <wait 5>
+      - /ma ヨアヒム <me> <wait 5>
+      - /ma コルモル <me> <wait 5>
+      - /ma モンブロー <me>
   - index: 9
     macros:
     - index: 1
@@ -27165,66 +27165,66 @@
   - index: 10
     macros:
     - index: 1
-      title: ''
+      title: 挑発
       lines:
-      - ''
+      - /ja 【挑発】 <t>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: ''
+      title: バーサク
       lines:
-      - ''
+      - /ja 【バーサク】 <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: ''
+      title: 葉隠
       lines:
-      - ''
+      - /ja 葉隠 <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: ''
+      title: 先義後利
       lines:
-      - ''
+      - /ja 先義後利 <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 5
-      title: ''
+      title: 八双
       lines:
-      - ''
+      - 【/jobability】 【八双】 <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: ''
+      title: 渾然一体
       lines:
-      - ''
+      - /ja 渾然一体 <t>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 7
-      title: ''
+      title: ソニスラ
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 184 echo 【サベッジブレード】
+      - 【/checkparam】 <me>
+      - /ws 【ソニックスラスト】 <t> <wait>
+      - 【/equipset】 183 echo 【オートアタック】
       - ''
       - ''
     - index: 8
@@ -27255,28 +27255,28 @@
       - ''
       - ''
     - index: 11
-      title: ''
+      title: シャイ１
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 183 echo 【オートアタック】
+      - 【/equip】 【メインウェポン】 【シャイニングワン】
+      - 【/equip】 【サブウェポン】 【ウトゥグリップ】
+      - 【/checkparam】 <me>
       - ''
       - ''
     - index: 12
-      title: ''
+      title: ハイJ
       lines:
-      - ''
-      - ''
+      - 【/jobability】 【ハイジャンプ】 <t> <wait>
+      - 【/equipset】 183 echo 【オートアタック】
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: ''
+      title: ジャンプ
       lines:
-      - ''
-      - ''
+      - 【/jobability】 【ジャンプ】 <t> <wait>
+      - 【/equipset】 183 echo 【オートアタック】
       - ''
       - ''
       - ''
@@ -27291,59 +27291,59 @@
       - ''
       - ''
     - index: 15
-      title: ''
+      title: 黙想
       lines:
-      - ''
+      - 【/jobability】 【黙想】 <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: ''
+      title: 星眼
       lines:
-      - ''
-      - ''
+      - 【/jobability】 【星眼】 <me> <wait>
+      - 【/jobability】 【心眼】 <me>
       - ''
       - ''
       - ''
       - ''
     - index: 17
-      title: ''
+      title: インパ
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 184 echo 【サベッジブレード】
+      - 【/checkparam】 <me>
+      - /ws 【インパルスドライヴ】 <t> <wait>
+      - 【/equipset】 183 echo 【オートアタック】
       - ''
       - ''
     - index: 18
-      title: ''
+      title: ★移動
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/echo】 ◇【デジョンリング】＆【シュネデックリング】
+      - 【/equip】 【右手の指】 【デジョンリング】
+      - 【/equip】 【左手の指】 【シュネデックリング】
       - ''
       - ''
       - ''
     - index: 19
-      title: ''
+      title: Lock183
       lines:
-      - ''
-      - ''
+      - 【/lockstyleset】 183
+      - /blockhelp on
       - ''
       - ''
       - ''
       - ''
     - index: 20
-      title: ''
+      title: Oイオリ
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 160 echo 詠唱中断FC
+      - /ma ヴァレンラール <me> <wait 5>
+      - /ma アークEV <me> <wait 5>
+      - /ma ヨアヒム <me> <wait 5>
+      - /ma キング・オブ・ハーツ <me> <wait 5>
+      - /ma モンブロー <me>
 - index: 16
   name: Book16
   palettes:
