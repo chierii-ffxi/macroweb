@@ -1,4 +1,4 @@
-# 2025-12-10 15:32:10
+# 2025-12-15 00:12:13
 - index: 1
   title: 001ThfAA
   items:
@@ -6459,17 +6459,17 @@
     slot: 23
     item: ＲＶサーコート+4
   - index: 7
-    storage: 53
-    slot: 3
-    item: ＣＢガントレ+3
+    storage: 57
+    slot: 48
+    item: ＣＢガントレ+4
   - index: 8
     storage: 57
     slot: 50
     item: ＣＢブリーチズ+4
   - index: 9
-    storage: 53
-    slot: 1
-    item: ＣＢレギンス+3
+    storage: 57
+    slot: 52
+    item: ＣＢレギンス+4
   - index: 10
     storage: 57
     slot: 71
@@ -12233,25 +12233,25 @@
     slot: 72
     item: ムパカブーツ
   - index: 10
-    storage: 57
-    slot: 69
-    item: 無の喉輪
+    storage: 41
+    slot: 62
+    item: 侍の喉輪+2
   - index: 11
     storage: 49
     slot: 48
     item: セールフィベルト+1
   - index: 12
-    storage: 53
-    slot: 41
-    item: デディションピアス
+    storage: 49
+    slot: 23
+    item: シェレピアス
   - index: 13
-    storage: 41
-    slot: 62
-    item: 春日耳飾り改
+    storage: 49
+    slot: 14
+    item: ブルタルピアス
   - index: 14
     storage: 33
-    slot: 60
-    item: シーリチリング+1
+    slot: 77
+    item: 守りの指輪
   - index: 15
     storage: 49
     slot: 28
@@ -12300,9 +12300,9 @@
     slot: 8
     item: ニャメソルレット
   - index: 10
-    storage: 53
-    slot: 45
-    item: フォシャゴルゲット
+    storage: 41
+    slot: 62
+    item: 侍の喉輪+2
   - index: 11
     storage: 49
     slot: 48
@@ -12824,17 +12824,17 @@
     slot: 13
     item: ジュマリックメイル
   - index: 7
-    storage: 53
-    slot: 3
-    item: ＣＢガントレ+3
+    storage: 57
+    slot: 48
+    item: ＣＢガントレ+4
   - index: 8
     storage: 57
     slot: 50
     item: ＣＢブリーチズ+4
   - index: 9
-    storage: 53
-    slot: 1
-    item: ＣＢレギンス+3
+    storage: 57
+    slot: 52
+    item: ＣＢレギンス+4
   - index: 10
     storage: 0
     slot: 0

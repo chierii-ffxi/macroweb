@@ -1,4 +1,4 @@
-# 2025-12-10 15:32:23
+# 2025-12-15 00:12:26
 - index: 1
   name: WAR
   palettes:
@@ -25,7 +25,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -207,7 +207,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -389,7 +389,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -571,7 +571,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -753,7 +753,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -935,7 +935,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -1481,7 +1481,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 155 echo 防御装備
@@ -21324,8 +21324,8 @@
       title: ソロセグ
       lines:
       - 【/equipset】 53 echo 【コルセア】【ファストキャスト】
+      - /ma コーネリア <me> <wait 5>
       - /ma ヴァレンラール <me> <wait 5>
-      - /ma ヨアヒム <me> <wait 5>
       - /ma アシェラ <me> <wait 5>
       - /ma モンブロー <me> <wait 5>
       - /ma ユグナス <me>
@@ -27264,19 +27264,19 @@
       - ''
       - ''
     - index: 12
-      title: ハイJ
+      title: 心眼
       lines:
-      - 【/jobability】 【ハイジャンプ】 <t> <wait>
-      - 【/equipset】 183 echo 【オートアタック】
+      - 【/jobability】 【心眼】 <me> <wait>
+      - 【/jobability】 【ディフェンダー】 <me>
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: ジャンプ
+      title: ''
       lines:
-      - 【/jobability】 【ジャンプ】 <t> <wait>
-      - 【/equipset】 183 echo 【オートアタック】
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -27293,10 +27293,10 @@
     - index: 15
       title: 黙想
       lines:
-      - 【/jobability】 【黙想】 <me>
-      - ''
-      - ''
-      - ''
+      - 【/equip】 【頭】 【極脇戸桃形兜】
+      - 【/equip】 【両手】 【極左近士筒篭手】
+      - 【/jobability】 【黙想】 <me> <wait>
+      - 【/equipset】 183 echo 【オートアタック】
       - ''
       - ''
     - index: 16
@@ -27339,10 +27339,10 @@
       title: Oイオリ
       lines:
       - 【/equipset】 160 echo 詠唱中断FC
+      - /ma コーネリア <me> <wait 5>
       - /ma ヴァレンラール <me> <wait 5>
-      - /ma アークEV <me> <wait 5>
-      - /ma ヨアヒム <me> <wait 5>
       - /ma キング・オブ・ハーツ <me> <wait 5>
+      - /ma ヨランオラン(UC) <me> <wait 5>
       - /ma モンブロー <me>
 - index: 16
   name: Book16
@@ -36485,7 +36485,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 159 echo 命中高め
@@ -36667,7 +36667,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -36849,7 +36849,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -37759,7 +37759,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
@@ -38308,7 +38308,7 @@
     - index: 3
       title: バーサク
       lines:
-      - 【/equip】 【胴】 【ＰＭロリカ+3】
+      - 【/equip】 【胴】 【ＰＭロリカ+4】
       - 【/equip】 【両足】 【ＡＧカリガ+3】
       - /ja 【バーサク】 <me> <wait 1>
       - 【/equipset】 141 echo DA100%
