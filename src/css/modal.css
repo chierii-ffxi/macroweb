@@ -26,10 +26,7 @@
   z-index: 999;
 }
 
-/* Force modal and overlay to start hidden */
-#modal, #overlay {
-  display: none !important;
-}
+
 
 /* Ensure overlay is clickable */
 #overlay {
