@@ -1,4 +1,4 @@
-# 2026-06-02 08:13:10
+# 2026-06-02 08:50:20
 - index: 1
   name: BLM
   palettes:
@@ -14591,17 +14591,17 @@
     - index: 1
       title: range
       lines:
-      - /equipset 160 echo [Snapshot]
-      - /range <stnpc>
-      - /equipset 152 echo [Chakutama]
+      - 【/equipset】 160 echo [Snapshot]
+      - 【/range】 <stnpc> <wait>
+      - 【/equipset】 152 echo [Chakutama]
       - ''
       - ''
       - ''
     - index: 2
       title: Barrage
       lines:
-      - /ja Barrage <me>
-      - /recast 【乱れ撃ち】
+      - 【/jobability】 【乱れ撃ち】 <me>
+      - 【/recast】 【乱れ撃ち】
       - ''
       - ''
       - ''
@@ -14609,8 +14609,8 @@
     - index: 3
       title: UnlimSho
       lines:
-      - /ja "Unlimited Shot" <me>
-      - /recast "Unlimited Shot"
+      - 【/jobability】 "【エンドレスショット】" <me>
+      - 【/recast】 "【エンドレスショット】"
       - ''
       - ''
       - ''
@@ -14618,8 +14618,8 @@
     - index: 4
       title: DblShot
       lines:
-      - /ja "Double Shot" <me>
-      - /recast "Double Shot"
+      - 【/jobability】 "Double Shot" <me>
+      - 【/recast】 "Double Shot"
       - ''
       - ''
       - ''
@@ -14627,9 +14627,9 @@
     - index: 5
       title: HoverSht
       lines:
-      - /ja "Hover Shot" <me>
-      - /recast "Hover Shot"
-      - /echo [Doubles dmg if used correctly (RNG guide)]
+      - 【/jobability】 "Hover Shot" <me>
+      - 【/recast】 "Hover Shot"
+      - ''
       - ''
       - ''
       - ''
@@ -14645,17 +14645,17 @@
     - index: 7
       title: Camoufla
       lines:
-      - /ja 【カモフラージュ】 <me>
-      - /recast 【カモフラージュ】
-      - /echo [【インビジ】 【敵対心】 down during normal RA]
+      - 【/jobability】 【カモフラージュ】 <me>
+      - 【/recast】 【カモフラージュ】
+      - ''
       - ''
       - ''
       - ''
     - index: 8
       title: Vel+Mel-
       lines:
-      - /ja "【ベロシティショット】" <me>
-      - /recast "【ベロシティショット】"
+      - 【/jobability】 "【ベロシティショット】" <me>
+      - 【/recast】 "【ベロシティショット】"
       - ''
       - ''
       - ''
@@ -14681,16 +14681,16 @@
     - index: 11
       title: hybridTP
       lines:
-      - /equipset 155
-      - /equip range Holliday
-      - /equip ammo "Eminent Bullet"
+      - 【/equipset】 155
+      - 【/equip】 【レンジウェポン】 Holliday
+      - 【/equip】 【矢弾】 "Eminent Bullet"
       - ''
       - ''
       - ''
     - index: 12
       title: Haste
       lines:
-      - /ja "【ヘイストサンバ】" <me>
+      - 【/jobability】 "【ヘイストサンバ】" <me>
       - ''
       - ''
       - ''
@@ -14699,35 +14699,35 @@
     - index: 13
       title: CW3
       lines:
-      - /ja "【ケアルワルツ】 III" <me> <wait 3>
+      - 【/jobability】 "【ケアルワルツ】 III" <me> <wait 3>
       - 【/equipset】 155
       - ''
       - ''
       - ''
       - ''
     - index: 14
-      title: ''
+      title: d2
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 158 echo
+      - '【/magic】 "【空蝉の術】: Ni" <me> <wait 1>'
+      - '【/recast】 "【空蝉の術】: Ni"'
+      - 【/equipset】 155 echo
       - ''
       - ''
     - index: 15
       title: Trueflig
       lines:
-      - /equipset 158 echo
-      - 【/weaponskill】 "Trueflight" <t> <wait 4>
-      - /equipset 155 echo [Engaged TP]
+      - 【/equipset】 158 echo
+      - 【/weaponskill】 【トゥルーフライト】 <t> <wait 4>
+      - 【/equipset】 155 echo [Engaged TP]
       - ''
       - ''
       - ''
     - index: 16
       title: R.Acc+
       lines:
-      - /ja 【狙い撃ち】 <me>
-      - /recast Sharpshot
+      - 【/jobability】 【狙い撃ち】 <me>
+      - 【/recast】 【狙い撃ち】
       - ''
       - ''
       - ''
@@ -14735,18 +14735,18 @@
     - index: 17
       title: SlugShot
       lines:
-      - /equipset 151 echo
-      - 【/weaponskill】 "Slug Shot" <t> <wait 4>
-      - /equipset 155 echo
+      - 【/equipset】 151 echo
+      - 【/weaponskill】 "【スラッグショット】" <t> <wait 4>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
     - index: 18
       title: LastStan
       lines:
-      - /equipset 151 echo
+      - 【/equipset】 151 echo
       - 【/weaponskill】 "【ラストスタンド】" <t> <wait 4>
-      - /equipset 155 echo
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
@@ -14762,9 +14762,9 @@
     - index: 20
       title: Wildfire
       lines:
-      - /equipset 158 echo
-      - 【/weaponskill】 "Wildfire" <t> <wait 4>
-      - /equipset 155 echo
+      - 【/equipset】 158 echo
+      - 【/weaponskill】 【ワイルドファイア】 <t> <wait 4>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
@@ -14798,39 +14798,39 @@
       - ''
       - ''
     - index: 4
-      title: d2
+      title: ''
       lines:
-      - /equipset 158 echo
-      - '/ma "Utsusemi: Ni" <me> <wait 1>'
-      - '/recast "Utsusemi: Ni"'
-      - 【/equipset】 155 echo
-      - /echo [Step 2] 【空蝉の術】
-      - /echo Engage after food
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
     - index: 5
-      title: HeavySho
+      title: ''
       lines:
-      - /echo [equip snapshot stuff]
-      - /echo [equip snapshot stuff]
-      - /echo [equip snapshot stuff]
-      - /echo [equip snapshot stuff]
-      - 【/weaponskill】 "【ヘヴィショット】" <t>
-      - /echo [equip 着弾]
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
     - index: 6
-      title: HotShot
+      title: ''
       lines:
-      - /equipset 158 echo
-      - '/p [1] 【ホットショット】 >> <t> '
-      - 【/weaponskill】 "Hot Shot" <t> <wait 4>
-      - /equipset 155 echo
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
       - ''
     - index: 7
-      title: SnipShot
+      title: ''
       lines:
-      - /equipset 158 echo
-      - '/p [1] 【スナイパーショット】 >> <t> '
-      - 【/weaponskill】 "Sniper Shot" <t> <wait 4>
-      - /equipset 155 echo
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
       - ''
     - index: 8
@@ -15227,17 +15227,17 @@
     - index: 11
       title: melTP
       lines:
-      - /equipset 155
-      - /equip range "Sparrowhawk +2"
-      - /equip main "Naegling"
-      - /equip ammo "hausbok arrow"
+      - 【/equipset】 155
+      - 【/equip】 【レンジウェポン】 "Sparrowhawk +2"
+      - 【/equip】 【メインウェポン】 "Naegling"
+      - 【/equip】 【矢弾】 "hausbok arrow"
       - ''
       - ''
     - index: 12
       title: Haste
       lines:
-      - /ja "【ヘイストサンバ】" <me>
-      - 【/equipset】 155
+      - 【/jobability】 "【ヘイストサンバ】" <me>
+      - "\0\x02\x02\rｦ 155"
       - ''
       - ''
       - ''
@@ -15245,7 +15245,7 @@
     - index: 13
       title: CW3
       lines:
-      - /ja "【ケアルワルツ】 III" <me> <wait 3>
+      - 【/jobability】 "【ケアルワルツ】 III" <me> <wait 3>
       - 【/equipset】 155
       - ''
       - ''
@@ -15254,21 +15254,21 @@
     - index: 14
       title: SavageBl
       lines:
-      - /equipset 157 echo
-      - 【/weaponskill】 "Savage Blade" <t> <wait 4>
-      - /equipset 155 echo
+      - 【/equipset】 157 echo
+      - 【/weaponskill】 "Savage Blade" <t> <wait>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
     - index: 15
       title: d2
       lines:
-      - /equipset 158 echo
-      - '/ma "Utsusemi: Ni" <me> <wait 1>'
-      - '/recast "Utsusemi: Ni"'
+      - 【/equipset】 158 echo
+      - '【/magic】 "【空蝉の術】: Ni" <me> <wait 1>'
+      - '【/recast】 "【空蝉の術】: Ni"'
       - 【/equipset】 155 echo
-      - /echo [Step 2] 【空蝉の術】
-      - /echo Engage after food
+      - ''
+      - ''
     - index: 16
       title: ''
       lines:
@@ -15306,9 +15306,9 @@
       - ''
       - ''
     - index: 20
-      title: kite
+      title: kite★
       lines:
-      - /equipset 154 echo Kite/Idle/DT
+      - "【/equipset】 154\054 echo Kite/Idle/DT"
       - ''
       - ''
       - ''
@@ -16299,18 +16299,18 @@
       - ''
       - ''
     - index: 9
-      title: ''
+      title: warp★
       lines:
-      - ''
-      - ''
+      - /equipset 1 <wait 10>
+      - /item "Warp Ring" <me>
       - ''
       - ''
       - ''
       - ''
     - index: 10
-      title: Shadowbi
+      title: ''
       lines:
-      - /ja 【影縫い】 <t>
+      - ''
       - ''
       - ''
       - ''
@@ -16335,9 +16335,9 @@
       - ''
       - ''
     - index: 13
-      title: ''
+      title: ShadowBd
       lines:
-      - ''
+      - 【/jobability】 【影縫い】 <t>
       - ''
       - ''
       - ''
@@ -16362,10 +16362,10 @@
       - ''
       - ''
     - index: 16
-      title: warp★
+      title: ''
       lines:
-      - /equipset 1 <wait 10>
-      - /item "Warp Ring" <me>
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -16373,17 +16373,17 @@
     - index: 17
       title: BountySh
       lines:
-      - /equipset 153 echo
-      - /wait 1
-      - /equip hands "Amini Glove. +1"
-      - /ja "Bounty Shot" <t>
+      - 【/equipset】 153 <wait 1> echo
+      - 【/equip】 hands "Amini Glove. +1"
+      - 【/jobability】 "Bounty Shot" <t>
+      - ''
       - ''
       - ''
     - index: 18
       title: BountyTH
       lines:
-      - /equipset 153 echo
-      - /echo [Bounty Gear on]
+      - 【/equipset】 153 echo [BountyShot TH on]
+      - ''
       - ''
       - ''
       - ''
@@ -16391,8 +16391,8 @@
     - index: 19
       title: Scavenge
       lines:
-      - /ja 【スカベンジ】 <me>
-      - /recast 【スカベンジ】
+      - 【/jobability】 【スカベンジ】 <me>
+      - 【/recast】 【スカベンジ】
       - ''
       - ''
       - ''
@@ -16400,7 +16400,7 @@
     - index: 20
       title: kite★
       lines:
-      - /equipset 154
+      - 【/equipset】 154
       - ''
       - ''
       - ''
