@@ -11,6 +11,8 @@
   max-width: 90%;
   max-height: 90%;
   overflow: auto;
+  background: #1e1e1e;  /* dark background */
+  color: #f0f0f0;       /* light text */
 }
 
 #overlay {
