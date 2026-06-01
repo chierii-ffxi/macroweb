@@ -1,6 +1,6 @@
-# 2026-06-01 21:48:36
+# 2026-06-02 08:13:10
 - index: 1
-  name: BLMtest
+  name: BLM
   palettes:
   - index: 1
     macros:
@@ -9,7 +9,7 @@
       lines:
       - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ファランクス】 <stpt>
-      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 112 <wait 3> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -108,7 +108,7 @@
       lines:
       - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ストンスキン】 <stpt>
-      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 112 <wait 5> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -187,18 +187,18 @@
   - index: 2
     macros:
     - index: 1
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
@@ -216,79 +216,79 @@
     - index: 4
       title: Ice3♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 III" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 III"
       - ''
+      - ''
     - index: 5
       title: Ice4♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 IV" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 IV"
       - ''
+      - ''
     - index: 6
       title: Ice5♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 V" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 V"
       - ''
+      - ''
     - index: 7
       title: IceJA♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザジャ】" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザジャ】"
       - ''
+      - ''
     - index: 8
       title: Ice6♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 VI" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 VI"
       - ''
+      - ''
     - index: 9
       title: Ic5♪rec
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 V" <stnpc>
       - 【/equipset】 116 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 V"
       - ''
+      - ''
     - index: 10
       title: Ic6♪rec
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 VI" <stnpc>
       - 【/equipset】 116 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 VI"
       - ''
-    - index: 11
-      title: ''
-      lines:
       - ''
+    - index: 11
+      title: ref★
+      lines:
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
@@ -306,445 +306,445 @@
     - index: 14
       title: San3♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 III" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 III"
       - ''
+      - ''
     - index: 15
       title: San4♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 IV" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 IV"
       - ''
+      - ''
     - index: 16
       title: San5♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 V" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 V"
       - ''
+      - ''
     - index: 17
       title: SanJA♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダジャ】" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダジャ】"
       - ''
+      - ''
     - index: 18
       title: San6♪
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 VI" <stnpc>
       - 【/equipset】 106 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 VI"
       - ''
+      - ''
     - index: 19
-      title: ''
+      title: San5rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【サンダー】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 V"
       - ''
       - ''
     - index: 20
-      title: ''
+      title: San6rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【サンダー】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 VI"
       - ''
       - ''
   - index: 3
     macros:
     - index: 1
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: Ae3
+      title: Aer2♪
       lines:
-      - /ma "Aero III" <stnpc>
-      - /recast "Aero III"
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 II"
       - ''
       - ''
     - index: 4
-      title: Ae4
+      title: Aer3♪
       lines:
-      - /ma "Aero IV" <stnpc>
-      - /recast "Aero IV"
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 III"
       - ''
       - ''
     - index: 5
-      title: Ae5
+      title: Aer4♪
       lines:
-      - /ma "Aero V" <stnpc>
-      - /recast "Aero V"
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 IV"
       - ''
       - ''
     - index: 6
-      title: Ae6
+      title: Aer5♪
       lines:
-      - /ma "Aero VI" <stnpc>
-      - /recast "Aero VI"
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 V"
       - ''
       - ''
     - index: 7
-      title: Aeja
+      title: AeJA♪
       lines:
-      - /ma "Aeroja" <stnpc>
-      - /recast Aeroja
-      - ''
-      - ''
+      - 【/magic】 【エアロジャ】 <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 【エアロジャ】
       - ''
       - ''
     - index: 8
-      title: ''
+      title: Aer6♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 VI"
       - ''
       - ''
     - index: 9
-      title: ''
+      title: Aer5rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 V"
       - ''
       - ''
     - index: 10
-      title: ''
+      title: Aer6rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【エアロ】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【エアロ】 VI"
       - ''
       - ''
     - index: 11
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: Wat3
+      title: Wat2♪
       lines:
-      - /ma "Water III" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 II"
       - ''
       - ''
     - index: 14
-      title: Wat4
+      title: Wat3♪
       lines:
-      - /ma "Water IV" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 III"
       - ''
       - ''
     - index: 15
-      title: Wat5
+      title: Wat4♪
       lines:
-      - /ma "Water V" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 IV"
       - ''
       - ''
     - index: 16
-      title: Wat6
+      title: Wat5♪
       lines:
-      - /ma "Water VI" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 V"
       - ''
       - ''
     - index: 17
-      title: ''
+      title: WatJA♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 【ウォタジャ】 <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 【ウォタジャ】
       - ''
       - ''
     - index: 18
-      title: ''
+      title: Wat6♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 VI"
       - ''
       - ''
     - index: 19
-      title: ''
+      title: Wat5rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 V"
       - ''
       - ''
     - index: 20
-      title: ''
+      title: Wat6rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 VI"
       - ''
       - ''
   - index: 4
     macros:
     - index: 1
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: Fir2
+      title: FC
       lines:
-      - /ma "Fire II" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 3
-      title: Fir3
+      title: Fire2♪
       lines:
-      - /ma "Fire III" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - 【/magic】 "【ファイア】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 II"
+      - ''
       - ''
     - index: 4
-      title: Fir4
+      title: Fire3♪
       lines:
-      - /ma "Fire IV" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - 【/magic】 "【ファイア】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 III"
+      - ''
       - ''
     - index: 5
-      title: Fir5
+      title: Fire4♪
       lines:
-      - /ma "Fire V" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - 【/magic】 "【ファイア】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 IV"
+      - ''
       - ''
     - index: 6
-      title: Fir6
+      title: Fir5♪
       lines:
-      - /ma "Fire VI" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - 【/magic】 "【ファイア】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 V"
+      - ''
       - ''
     - index: 7
-      title: Firja
+      title: FirJA♪
       lines:
-      - /ma "Firaja" <t> <wait 60>
-      - '/echo [Firaja] OFF '
-      - ''
-      - ''
+      - 【/magic】 【ファイジャ】 <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 【ファイジャ】
       - ''
       - ''
     - index: 8
-      title: cas
+      title: Fire6♪
       lines:
-      - /ja 【カスケード】 <me>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ファイア】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 VI"
       - ''
       - ''
     - index: 9
-      title: ''
+      title: Fir5rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ファイア】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 V"
       - ''
       - ''
     - index: 10
-      title: ''
+      title: Wat6rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 VI"
       - ''
       - ''
     - index: 11
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: ''
+      title: Wat2♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 II"
       - ''
       - ''
     - index: 14
-      title: ''
+      title: Wat3♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ウォータ】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 III"
       - ''
       - ''
     - index: 15
-      title: Stone5
+      title: Wat4♪
       lines:
-      - /ma "Stone V" <stnpc>
-      - /recast "Stone III"
-      - /recast "Stone IV"
-      - /recast "Stone V"
-      - /recast "Stoneja"
+      - 【/magic】 "【ウォータ】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ウォータ】 IV"
+      - ''
       - ''
     - index: 16
-      title: Stone6
+      title: Ston5♪
       lines:
-      - /ma "Stone VI" <stnpc>
-      - /recast "Stone III"
-      - /recast "Stone IV"
-      - /recast "Stone V"
-      - /recast "Stoneja"
+      - 【/magic】 "【ストーン】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ストーン】 V"
+      - ''
       - ''
     - index: 17
-      title: Stonja
+      title: StoJA♪
       lines:
-      - /ma "Stoneja" <t> <wait 60>
-      - '/echo [Stoneja] OFF '
-      - ''
-      - ''
+      - 【/magic】 【ストンジャ】 <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 【ストンジャ】
       - ''
       - ''
     - index: 18
-      title: ''
+      title: Stone6♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ストーン】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ストーン】 VI"
       - ''
       - ''
     - index: 19
-      title: ''
+      title: Ston5rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ストーン】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ストーン】 V"
       - ''
       - ''
     - index: 20
-      title: ''
+      title: Ston6rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ストーン】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ストーン】 VI"
       - ''
       - ''
   - index: 5
     macros:
     - index: 1
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
@@ -787,9 +787,9 @@
       - ''
       - ''
     - index: 7
-      title: ''
+      title: Cascade
       lines:
-      - ''
+      - 【/jobability】 【カスケード】 <me>
       - ''
       - ''
       - ''
@@ -823,18 +823,18 @@
       - 【/recast】 "【ブリザド】 V"
       - ''
     - index: 11
-      title: ''
+      title: ref★
       lines:
-      - ''
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: ''
+      title: FC
       lines:
-      - ''
+      - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
       - ''
       - ''
@@ -895,22 +895,22 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: San4free
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 IV" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 IV"
       - ''
     - index: 20
-      title: ''
+      title: San5free
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 V" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 V"
       - ''
   - index: 6
     macros:
