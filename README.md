@@ -3,6 +3,10 @@
 This guide helps you build your own **FFXI Macro Viewer** website from scratch.  
 You will extract your macro and equipset data from your local FFXI installation, convert it to YAML, and then publish the site (e.g., on GitHub Pages).
 
+Example:
+
+https://chierii-ffxi.github.io/macroweb/
+
 ---
 
 ## 🧱 What you need
