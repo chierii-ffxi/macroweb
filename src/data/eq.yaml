@@ -1,4 +1,4 @@
-# 2026-06-01 20:57:10
+# 2026-06-01 21:48:26
 - index: 1
   title: WarpMea
   items:
@@ -6822,9 +6822,9 @@
     slot: 78
     item: ロケイシャスピアス
   - index: 14
-    storage: 41
-    slot: 28
-    item: 守りの指輪
+    storage: 1
+    slot: 2
+    item: 26234
   - index: 15
     storage: 45
     slot: 29
@@ -7102,72 +7102,72 @@
     slot: 59
     item: タラナスケープ
 - index: 107
-  title: Set107
+  title: BLMfreeNuke
   items:
   - index: 1
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 14
+    item: マランスタッフ+1
   - index: 2
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 5
+    slot: 22
+    item: コーンスー
   - index: 3
-    storage: 0
+    storage: 2
     slot: 0
     item: 0
   - index: 4
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 42
+    item: ガストリタスラム+1
   - index: 5
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 9
+    item: エアハット+1
   - index: 6
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 5
+    item: ＷＣコート+3
   - index: 7
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 29
+    item: ＡＲグローブ+3
   - index: 8
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 24
+    item: ＷＣショウス+3
   - index: 9
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 18
+    item: ＷＣサボ+3
   - index: 10
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 71
+    item: ソーサラストール+2
   - index: 11
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 44
+    item: アキュイテベルト+1
   - index: 12
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 49
+    item: マリグナスピアス
   - index: 13
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 23
+    item: ウィッケピアス+1
   - index: 14
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 36
+    item: メタモルリング+1
   - index: 15
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 63
+    item: メフィタスリング+1
   - index: 16
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 59
+    item: タラナスケープ
 - index: 108
   title: BLMfastcast
   items:
@@ -7224,9 +7224,9 @@
     slot: 78
     item: ロケイシャスピアス
   - index: 14
-    storage: 41
-    slot: 28
-    item: 守りの指輪
+    storage: 1
+    slot: 2
+    item: 26234
   - index: 15
     storage: 41
     slot: 39
@@ -7476,9 +7476,9 @@
     slot: 18
     item: テルキネピガッシュ
   - index: 10
-    storage: 33
-    slot: 26
-    item: ロリケートトルク+1
+    storage: 1
+    slot: 6
+    item: ノデンズゴルゲット
   - index: 11
     storage: 41
     slot: 48
@@ -7492,13 +7492,13 @@
     slot: 23
     item: カラミタスピアス
   - index: 14
-    storage: 45
-    slot: 20
-    item: スティキニリング
+    storage: 33
+    slot: 75
+    item: スティキニリング+1
   - index: 15
-    storage: 45
-    slot: 34
-    item: スティキニリング
+    storage: 33
+    slot: 70
+    item: スティキニリング+1
   - index: 16
     storage: 1
     slot: 21
@@ -7705,72 +7705,72 @@
     slot: 16
     item: グレプバインケープ
 - index: 116
-  title: Set116
+  title: BLMrecNuke
   items:
   - index: 1
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 14
+    item: マランスタッフ+1
   - index: 2
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 5
+    slot: 22
+    item: コーンスー
   - index: 3
-    storage: 0
+    storage: 2
     slot: 0
     item: 0
   - index: 4
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 42
+    item: ガストリタスラム+1
   - index: 5
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 9
+    item: エアハット+1
   - index: 6
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 8
+    item: ＳＰコート+2
   - index: 7
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 29
+    item: ＡＲグローブ+3
   - index: 8
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 24
+    item: ＷＣショウス+3
   - index: 9
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 18
+    item: ＷＣサボ+3
   - index: 10
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 71
+    item: ソーサラストール+2
   - index: 11
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 19
+    item: 八輪の帯
   - index: 12
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 49
+    item: マリグナスピアス
   - index: 13
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 23
+    item: ウィッケピアス+1
   - index: 14
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 36
+    item: メタモルリング+1
   - index: 15
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 63
+    item: メフィタスリング+1
   - index: 16
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 59
+    item: タラナスケープ
 - index: 117
   title: Set117
   items:
@@ -7839,7 +7839,7 @@
     slot: 0
     item: 0
 - index: 118
-  title: Set118
+  title: BLMmACC
   items:
   - index: 1
     storage: 0
@@ -7850,61 +7850,61 @@
     slot: 0
     item: 0
   - index: 3
-    storage: 0
+    storage: 2
     slot: 0
     item: 0
   - index: 4
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 42
+    item: ガストリタスラム+1
   - index: 5
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 13
+    item: ＡＲペタソス+3
   - index: 6
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 5
+    item: ＷＣコート+3
   - index: 7
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 29
+    item: ＡＲグローブ+3
   - index: 8
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 45
+    slot: 9
+    item: ＡＲトンバン+3
   - index: 9
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 45
+    slot: 10
+    item: ＡＲサボ+3
   - index: 10
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 57
+    item: 無の喉輪
   - index: 11
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 41
+    slot: 44
+    item: アキュイテベルト+1
   - index: 12
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 49
+    item: マリグナスピアス
   - index: 13
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 45
+    slot: 67
+    item: ウィッケピアス+1
   - index: 14
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 70
+    item: スティキニリング+1
   - index: 15
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 33
+    slot: 75
+    item: スティキニリング+1
   - index: 16
-    storage: 0
-    slot: 0
-    item: 0
+    storage: 1
+    slot: 24
+    item: 無の外装
 - index: 119
   title: Set119
   items:

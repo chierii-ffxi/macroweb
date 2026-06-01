@@ -1,4 +1,4 @@
-# 2026-06-01 20:56:58
+# 2026-06-01 21:48:36
 - index: 1
   name: BLMtest
   palettes:
@@ -7,37 +7,37 @@
     - index: 1
       title: Phalanx
       lines:
-      - /equipset 108 echo
-      - /ma "Phalanx" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【ファランクス】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 2
       title: Haste
       lines:
-      - /equipset 108 echo
-      - /ma "Haste" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【ヘイスト】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 3
       title: Blink
       lines:
-      - /equipset 108 echo
-      - /ma "Blink" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【ブリンク】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 4
       title: Aquaveil
       lines:
-      - /equipset 108 echo
-      - /ma "【アクアベール】" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【アクアベール】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 5
@@ -50,12 +50,12 @@
       - ''
       - ''
     - index: 6
-      title: MW
+      title: ManaWALL
       lines:
-      - '/equip back "Taranus''s Cape" '
-      - /ja "【マナウォール】" <me>
+      - 【/equip】 【背】 "【タラナスケープ】"
+      - 【/jobability】 "【マナウォール】" <me>
       - /p >>>> 【マナウォール】 <<<<<
-      - /recast "【マナウォール】"
+      - 【/recast】 "【マナウォール】"
       - ''
       - ''
     - index: 7
@@ -97,19 +97,19 @@
     - index: 11
       title: Refresh
       lines:
-      - /equipset 108 echo
-      - /ma "Refresh" <stpt>
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【リフレシュ】 <stpt>
       - /equipset 115 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 12
       title: Stoneski
       lines:
-      - /equipset 108 echo
-      - /ma "Stoneskin" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【ストンスキン】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 13
@@ -124,50 +124,50 @@
     - index: 14
       title: Sleepga
       lines:
-      - /equipset 108 echo
-      - /ma "Sleepga" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【スリプガ】 <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 15
       title: Sleepga2
       lines:
-      - /equipset 108 echo
-      - /ma "Sleepga II" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【スリプガ】 II" <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 16
       title: Breakga
       lines:
-      - /equipset 108 echo
-      - /ma "Breakga" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【ブレクガ】 <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 17
       title: Sleep2
       lines:
-      - /equipset 108 echo
-      - /ma "Sleep II" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【スリプル】 II" <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 18
       title: Stun
       lines:
-      - /equipset 108 echo
-      - /ma "Stun" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/magic】 【スタン】 <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 19
-      title: MP
+      title: tmp_MP
       lines:
       - ''
       - ''
@@ -176,7 +176,7 @@
       - ''
       - ''
     - index: 20
-      title: Death
+      title: tmpDeath
       lines:
       - /ma "Death" <t>
       - ''
@@ -196,85 +196,85 @@
       - ''
       - ''
     - index: 2
-      title: Ice2
+      title: ''
       lines:
-      - /ma "Blizzard II" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: Ice3
+      title: Ice2♪
       lines:
-      - /ma "Blizzard III" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ブリザド】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 II"
       - ''
       - ''
     - index: 4
-      title: Ice4
+      title: Ice3♪
       lines:
-      - /ma "Blizzard IV" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 III"
       - ''
     - index: 5
-      title: Ice5
+      title: Ice4♪
       lines:
-      - /ma "Blizzard V" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 IV"
       - ''
     - index: 6
-      title: Ice6
+      title: Ice5♪
       lines:
-      - /ma "Blizzard VI" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 V"
       - ''
     - index: 7
-      title: Iceja
+      title: IceJA♪
       lines:
-      - /ma "Blizzaja" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザジャ】" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザジャ】"
       - ''
     - index: 8
-      title: ''
+      title: Ice6♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 VI"
       - ''
     - index: 9
-      title: ''
+      title: Ic5♪rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 V" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 V"
       - ''
     - index: 10
-      title: ''
+      title: Ic6♪rec
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 VI" <stnpc>
+      - 【/equipset】 116 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 VI"
       - ''
     - index: 11
       title: ''
@@ -286,67 +286,67 @@
       - ''
       - ''
     - index: 12
-      title: Thu3*
+      title: ''
       lines:
-      - /equipset 108 echo
-      - /ma "Thunder III" <t>
-      - /equipset 106 <wait 3>
-      - /equipset 103 echo
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
       - ''
     - index: 13
-      title: Thu3
+      title: San2♪
       lines:
-      - /ma "Thunder III" <t>
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【サンダー】 II" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 II"
       - ''
       - ''
     - index: 14
-      title: Thu4
+      title: San3♪
       lines:
-      - /ma "Thunder IV" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 III" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 III"
       - ''
     - index: 15
-      title: Thu5
+      title: San4♪
       lines:
-      - /ma "Thunder V" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 IV" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 IV"
       - ''
     - index: 16
-      title: Thu6
+      title: San5♪
       lines:
-      - /ma "Thunder VI" <t>
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 V" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 V"
       - ''
     - index: 17
-      title: ''
+      title: SanJA♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダジャ】" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダジャ】"
       - ''
     - index: 18
-      title: ''
+      title: San6♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【サンダー】 VI" <stnpc>
+      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 VI"
       - ''
     - index: 19
       title: ''
@@ -805,22 +805,22 @@
       - ''
       - ''
     - index: 9
-      title: ''
+      title: Ic4 free
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 IV" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 IV"
       - ''
     - index: 10
-      title: ''
+      title: Ic5 free
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【ブリザド】 V" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ブリザド】 V"
       - ''
     - index: 11
       title: ''
@@ -1772,8 +1772,8 @@
       title: Aspir
       lines:
       - 【/equipset】 108 echo [Fast Cast]
-      - /ma "Aspir" <t>
-      - /equipset 113 <wait 2>
+      - 【/magic】 【アスピル】 <stnpc>
+      - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -1781,8 +1781,8 @@
       title: Aspir2
       lines:
       - 【/equipset】 108 echo [Fast Cast]
-      - /ma "Aspir II" <t>
-      - /equipset 113 <wait 2>
+      - 【/magic】 "【アスピル】 II" <stnpc>
+      - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -1790,8 +1790,8 @@
       title: Aspir3
       lines:
       - 【/equipset】 108 echo [Fast Cast]
-      - /ma "Aspir III" <t>
-      - /equipset 113 <wait 2>
+      - 【/magic】 "【アスピル】 III" <stnpc>
+      - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -1799,24 +1799,24 @@
       title: Dispel
       lines:
       - 【/equipset】 108 echo [Fast Cast]
-      - /ma "Dispel" <t>
-      - /equipset 113 <wait 2>
+      - 【/magic】 【ディスペル】 <stnpc>
+      - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 19
       title: Dispelga
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
-      - /equip main Daybreak
-      - /ma "Dispelga" <t>
-      - /equipset 113 <wait 2>
+      - 【/equipset】 108 <wait 1> echo [Fast Cast]
+      - 【/equip】 main Daybreak
+      - 【/magic】 Dispelga <stnpc>
+      - 【/equipset】 118 <wait 3> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
     - index: 20
       title: kite★
       lines:
-      - 【/equipset】 103 echo [DT / kite] <wait 1>
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - 【/equip】 ring2 "【シュネデックリング】"
       - ''
       - ''
