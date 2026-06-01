@@ -1,4 +1,4 @@
-# 2026-06-01 19:04:41
+# 2026-06-01 20:57:10
 - index: 1
   title: WarpMea
   items:
@@ -6774,9 +6774,9 @@
     slot: 14
     item: マランスタッフ+1
   - index: 2
-    storage: 41
-    slot: 46
-    item: カジャグリップ
+    storage: 5
+    slot: 22
+    item: コーンスー
   - index: 3
     storage: 2
     slot: 0
@@ -6841,17 +6841,17 @@
     slot: 1
     item: ムパカスタッフ
   - index: 2
-    storage: 41
-    slot: 46
-    item: カジャグリップ
+    storage: 0
+    slot: 0
+    item: 0
   - index: 3
-    storage: 2
+    storage: 0
     slot: 0
     item: 0
   - index: 4
     storage: 41
-    slot: 42
-    item: ガストリタスラム+1
+    slot: 37
+    item: 昏黄の礫
   - index: 5
     storage: 33
     slot: 59
@@ -6881,9 +6881,9 @@
     slot: 38
     item: 風鳥の帯
   - index: 12
-    storage: 41
-    slot: 6
-    item: メンデカントピアス
+    storage: 1
+    slot: 5
+    item: 26119
   - index: 13
     storage: 33
     slot: 78
@@ -6893,13 +6893,13 @@
     slot: 18
     item: スティキニリング+1
   - index: 15
-    storage: 45
-    slot: 29
-    item: シュネデックリング
+    storage: 33
+    slot: 75
+    item: スティキニリング+1
   - index: 16
-    storage: 41
-    slot: 64
-    item: 月光の羽衣
+    storage: 1
+    slot: 24
+    item: 無の外装
 - index: 104
   title: Set104
   items:
@@ -7042,9 +7042,9 @@
     slot: 14
     item: マランスタッフ+1
   - index: 2
-    storage: 41
-    slot: 46
-    item: カジャグリップ
+    storage: 5
+    slot: 22
+    item: コーンスー
   - index: 3
     storage: 2
     slot: 0
@@ -7180,13 +7180,13 @@
     slot: 73
     item: カルミナス
   - index: 3
-    storage: 2
+    storage: 0
     slot: 0
     item: 0
   - index: 4
-    storage: 45
-    slot: 2
-    item: インパティエンス
+    storage: 41
+    slot: 37
+    item: 昏黄の礫
   - index: 5
     storage: 41
     slot: 2
@@ -7511,9 +7511,9 @@
     slot: 13
     item: マランスタッフ+1
   - index: 2
-    storage: 41
-    slot: 46
-    item: カジャグリップ
+    storage: 5
+    slot: 22
+    item: コーンスー
   - index: 3
     storage: 2
     slot: 0
@@ -7559,13 +7559,13 @@
     slot: 67
     item: ウィッケピアス+1
   - index: 14
-    storage: 45
-    slot: 20
-    item: スティキニリング
+    storage: 33
+    slot: 70
+    item: スティキニリング+1
   - index: 15
-    storage: 45
-    slot: 34
-    item: スティキニリング
+    storage: 33
+    slot: 75
+    item: スティキニリング+1
   - index: 16
     storage: 45
     slot: 59

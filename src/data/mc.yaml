@@ -1,6 +1,6 @@
-# 2026-06-01 19:29:18
+# 2026-06-01 20:56:58
 - index: 1
-  name: BLMvanilla
+  name: BLMtest
   palettes:
   - index: 1
     macros:
@@ -1461,18 +1461,18 @@
   - index: 9
     macros:
     - index: 1
-      title: abyKey
+      title: ''
       lines:
-      - /item "Forbidden Key" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: tractor
+      title: ''
       lines:
-      - /ma tractor <t>
+      - ''
       - ''
       - ''
       - ''
@@ -1645,19 +1645,19 @@
     - index: 1
       title: Protect
       lines:
-      - /equipset 108 echo
-      - /ma "Protect III" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【プロテス】 III" <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 2
       title: Shell
       lines:
-      - /equipset 108 echo
-      - /ma "Shell II" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 "【シェル】 II" <stpt>
+      - 【/equipset】 112 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 3
@@ -1672,17 +1672,17 @@
     - index: 4
       title: Manafont
       lines:
-      - /equip body "Arch. Coat +2"
-      - /ja 【魔力の泉】 <me>
-      - /recast 【魔力の泉】
+      - 【/equip】 【胴】 "【ＡＲコート+2】"
+      - 【/jobability】 【魔力の泉】 <me>
+      - 【/recast】 【魔力の泉】
       - ''
       - ''
       - ''
     - index: 5
       title: SubSorce
       lines:
-      - /ja "Subtle Sorcery" <me>
-      - /recast "Subtle Sorcery"
+      - 【/jobability】 "【サテルソーサリー】" <me>
+      - 【/recast】 "【サテルソーサリー】"
       - ''
       - ''
       - ''
@@ -1690,64 +1690,64 @@
     - index: 6
       title: Manawell
       lines:
-      - /ja 【魔力の雫】 <me>
-      - /echo [Manawell >> Impact]
-      - /recast Manawell
+      - 【/jobability】 【魔力の雫】 <me>
+      - 【/echo】 [【魔力の雫】 >> Impact]
+      - 【/recast】 【魔力の雫】
       - ''
       - ''
       - ''
     - index: 7
       title: Frazzle
       lines:
-      - /equipset 108 echo
-      - /ma "Frazzle" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【フラズル】 <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 8
-      title: '>Impact'
+      title: Manawell
       lines:
-      - /ma Impact <stnpc>
-      - ''
-      - ''
+      - 【/jobability】 【魔力の雫】 <me>
+      - 【/echo】 [【魔力の雫】 >> Impact]
+      - 【/recast】 【魔力の雫】
       - ''
       - ''
       - ''
     - index: 9
-      title: Burn
+      title: '>Impact'
       lines:
-      - /equipset 108 echo
-      - /ma "Burn" <t>
-      - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 109 echo [Fastcast Impact]
+      - 【/magic】 Impact <stnpc>
+      - 【/equipset】 114 <wait 5>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 10
-      title: ''
+      title: Burn
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【バーン】 <stnpc>
+      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 11
       title: Sneak
       lines:
-      - /equipset 108 echo
-      - /ma "Sneak" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【スニーク】 <stpt>
+      - 【/equipset】 112 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 12
       title: Invisibl
       lines:
-      - /equipset 108 echo
-      - /ma "Invisible" <stpt>
-      - /equipset 112 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 108 echo [Fast Cast]
+      - 【/magic】 【インビジ】 <stpt>
+      - 【/equipset】 112 <wait 2>
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 13
@@ -1771,53 +1771,53 @@
     - index: 15
       title: Aspir
       lines:
-      - /equipset 108 echo
+      - 【/equipset】 108 echo [Fast Cast]
       - /ma "Aspir" <t>
       - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 16
       title: Aspir2
       lines:
-      - /equipset 108 echo
+      - 【/equipset】 108 echo [Fast Cast]
       - /ma "Aspir II" <t>
       - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 17
       title: Aspir3
       lines:
-      - /equipset 108 echo
+      - 【/equipset】 108 echo [Fast Cast]
       - /ma "Aspir III" <t>
       - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 18
       title: Dispel
       lines:
-      - /equipset 108 echo
+      - 【/equipset】 108 echo [Fast Cast]
       - /ma "Dispel" <t>
       - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
     - index: 19
       title: Dispelga
       lines:
-      - /equipset 108 echo
+      - 【/equipset】 108 echo [Fast Cast]
       - /equip main Daybreak
       - /ma "Dispelga" <t>
       - /equipset 113 <wait 2>
-      - /equipset 103 echo
+      - 【/equipset】 103 echo [Aftercast]
       - ''
     - index: 20
-      title: DT/kit
+      title: kite★
       lines:
-      - /equipset 103
-      - ''
+      - 【/equipset】 103 echo [DT / kite] <wait 1>
+      - 【/equip】 ring2 "【シュネデックリング】"
       - ''
       - ''
       - ''
