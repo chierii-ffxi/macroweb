@@ -110,13 +110,4 @@
   transform: translateY(-1px);
 }
 
-/* Restore color-set classes with Apple-style accents */
-.macro-button.color-set-1 {
-  background: #0a84ff !important; /* Apple blue */
-  border-color: #006edb !important;
-}
 
-.macro-button.color-set-2 {
-  background: #30d158 !important; /* Apple green */
-  border-color: #248a3d !important;
-}
