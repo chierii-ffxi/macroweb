@@ -91,17 +91,3 @@
   z-index: 1600;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* Apple-style accent colors */
-.macro-button.color-set-1 {
-  background: #0a84ff !important; /* Apple Blue */
-  border-color: #006edb !important;
-  color: #ffffff !important;
-}
-
-.macro-button.color-set-2 {
-  background: #ca5afa !important; /* Apple Green */
-  border-color: #248a3d !important;
-  color: #ffffff !important;
-}
-
