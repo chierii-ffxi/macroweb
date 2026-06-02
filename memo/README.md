@@ -1,4 +1,4 @@
-# FFXI Vanilla Macro & Equipset Optimizations
+# FFXI Vanilla Macro & Equipset Notes
 
 Most of the text and examples are translated from:
 
@@ -177,8 +177,10 @@ However, if you dislike the extra stroke (or controller input) required by the s
 
 > 🔗 **Deep Dive:** [See this follow-up X thread by @funanz for the full breakdown.](https://x.com/funanz/status/1547521535283720192)
 
-As modern FFXI gameplay has accelerated, we cast spells far more frequently, and our casting speeds are incomparably faster than they were in the past. As things get faster, macro control becomes significantly harder. Because modern individual gear pieces hold so much stat power, failing a gearswap hurts your performance more than ever before. What used to be a negligible millisecond error in the past is now a major optimization problem we have to account for.
-
+As modern FFXI gameplay has accelerated, we cast spells far more frequently, and our casting speeds are incomparably faster than they were in the past. 
+As things get faster, macro control becomes significantly harder. 
+Because modern individual gear pieces hold so much stat power, failing a gearswap hurts your performance more than ever before. 
+What used to be a negligible millisecond error in the past is now a major optimization problem we have to account for.
 
 ---
 
