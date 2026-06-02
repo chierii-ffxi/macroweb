@@ -7,16 +7,31 @@ The logic used in these macros are adapted from:
 
 ## Explanation on wait durations, slot names, and how to equip one of multiple items with the same name (Ambuscade capes)
 
-* Advantage of /equip:
+### Advantage of /equip:
 
 > No wait restrictions. Disadvantage: Limited number of equipment changes. To use different equipment with the same name, you must store them separately: Storage locations are specified by half-width numbers. 0: My Bag 1: Mog Wardrobe 1 2: Mog Wardrobe 2 3: Mog Wardrobe 3 4: Mog Wardrobe 4. No specification: Find the target equipment name in the order 0 1 2 3 4 and specify the first one you hit.
 
-* Advantage of /equipset:
+### Advantage of /equipset:
 
 > You can change equipment to about all in just one macro line. You can switch between equipment with the same name within the same storage.
 Disadvantages: You need to wait 1 time between equipment sets.
 
-* To log the execution, leave a half-width space after the equipment set number and enter `echo`.
+To log the execution, leave a half-width space after the equipment set number and enter `echo`.
+
+### wait
+
+The command /wait or <wait> generates a specified number of waits between the macro lines.
+
+```addon
+wait 1 = about 1.2 seconds,
+wait 2 = about 2.0 seconds,
+wait 3 = about 3.2 seconds,
+wait 4 = about 4.0 seconds,
+wait 5 = about 5.2 seconds,
+wait 6 = about 6.0 seconds
+```
+
+* The communication interval with the server is said to be 0.4 seconds (or 0.33 seconds), so there may be a slight discrepancy between the number of seconds specified by the wait value and the actual result.
 
 ## Distinguishing between uses
 
