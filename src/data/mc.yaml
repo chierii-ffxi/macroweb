@@ -1,51 +1,51 @@
-# 2026-06-02 08:50:20
+# 2026-06-02 17:27:18
 - index: 1
   name: BLM
   palettes:
   - index: 1
     macros:
     - index: 1
-      title: Phalanx
+      title: fcdt★
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
-      - 【/magic】 【ファランクス】 <stpt>
-      - 【/equipset】 112 <wait 3> echo [Enhancing]
-      - 【/equipset】 103 echo [Aftercast]
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - ''
+      - ''
+      - ''
       - ''
       - ''
     - index: 2
+      title: reffc☆
+      lines:
+      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
       title: Haste
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ヘイスト】 <stpt>
       - 【/equipset】 112 <wait 2> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
-    - index: 3
+      - ''
+    - index: 4
       title: Blink
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ブリンク】 <stpt>
       - 【/equipset】 112 <wait 2> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
-    - index: 4
+      - ''
+    - index: 5
       title: Aquaveil
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【アクアベール】 <stpt>
       - 【/equipset】 112 <wait 2> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
-      - ''
-      - ''
-    - index: 5
-      title: ''
-      lines:
-      - ''
-      - ''
-      - ''
       - ''
       - ''
       - ''
@@ -77,84 +77,84 @@
       - ''
       - ''
     - index: 9
-      title: ''
-      lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-    - index: 10
-      title: ''
-      lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-    - index: 11
       title: Refresh
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【リフレシュ】 <stpt>
       - /equipset 115 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
-    - index: 12
-      title: Stoneski
+      - ''
+    - index: 10
+      title: Phalanx
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
-      - 【/magic】 【ストンスキン】 <stpt>
-      - 【/equipset】 112 <wait 5> echo [Enhancing]
+      - 【/magic】 【ファランクス】 <stpt>
+      - 【/equipset】 112 <wait 3> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
-    - index: 13
-      title: ''
+      - ''
+    - index: 11
+      title: fcdt★
       lines:
+      - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
       - ''
       - ''
+      - ''
+      - ''
+    - index: 12
+      title: reffc☆
+      lines:
+      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: Stoneski
+      lines:
+      - 【/magic】 【ストンスキン】 <stpt>
+      - 【/equipset】 112 <wait 5> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
       - ''
     - index: 14
       title: Sleepga
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【スリプガ】 <stnpc>
       - 【/equipset】 113 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 15
       title: Sleepga2
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【スリプガ】 II" <stnpc>
       - 【/equipset】 113 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 16
       title: Breakga
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ブレクガ】 <stnpc>
       - 【/equipset】 113 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 17
       title: Sleep2
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【スリプル】 II" <stnpc>
       - 【/equipset】 113 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 18
@@ -187,7 +187,7 @@
   - index: 2
     macros:
     - index: 1
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -196,7 +196,7 @@
       - ''
       - ''
     - index: 2
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -277,7 +277,7 @@
       - ''
       - ''
     - index: 11
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -286,7 +286,7 @@
       - ''
       - ''
     - index: 12
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -369,7 +369,7 @@
   - index: 3
     macros:
     - index: 1
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -378,7 +378,7 @@
       - ''
       - ''
     - index: 2
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -459,7 +459,7 @@
       - ''
       - ''
     - index: 11
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -468,7 +468,7 @@
       - ''
       - ''
     - index: 12
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -551,7 +551,7 @@
   - index: 4
     macros:
     - index: 1
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -560,7 +560,7 @@
       - ''
       - ''
     - index: 2
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -641,7 +641,7 @@
       - ''
       - ''
     - index: 11
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -650,7 +650,7 @@
       - ''
       - ''
     - index: 12
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -733,7 +733,7 @@
   - index: 5
     macros:
     - index: 1
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -742,7 +742,7 @@
       - ''
       - ''
     - index: 2
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -823,7 +823,7 @@
       - 【/recast】 "【ブリザド】 V"
       - ''
     - index: 11
-      title: ref★
+      title: fcdt★
       lines:
       - 【/equipset】 103 <wait 1> echo [Aftercast]
       - ''
@@ -832,7 +832,7 @@
       - ''
       - ''
     - index: 12
-      title: FC
+      title: reffc☆
       lines:
       - 【/equipset】 110 echo [Fast Cast Nuking]
       - ''
@@ -1645,19 +1645,19 @@
     - index: 1
       title: Protect
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【プロテス】 III" <stpt>
       - 【/equipset】 112 <wait 2> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 2
       title: Shell
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【シェル】 II" <stpt>
       - 【/equipset】 112 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 3
@@ -1699,10 +1699,10 @@
     - index: 7
       title: Frazzle
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【フラズル】 <stnpc>
       - 【/equipset】 113 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 8
@@ -1717,7 +1717,7 @@
     - index: 9
       title: '>Impact'
       lines:
-      - 【/equipset】 109 echo [Fastcast Impact]
+      - 【/equipset】 109 <wait>
       - 【/magic】 Impact <stnpc>
       - 【/equipset】 114 <wait 5>
       - 【/equipset】 103 echo [Aftercast]
