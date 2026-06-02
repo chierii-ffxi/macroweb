@@ -5,7 +5,7 @@ You will extract your macro and equipset data from your local FFXI installation,
 
 Example:
 
-https://chierii-ffxi.github.io/macroweb/
+[https://chierii-ffxi.github.io/macroweb/](https://chierii-ffxi.github.io/ffxi-equisets-and-macros)
 
 ---
 
