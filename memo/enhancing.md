@@ -1,6 +1,7 @@
-## 🛡️ Standard Enhancing Magic
+## Standard Enhancing Magic
 
 Spells with standard casting times where a pre-cast Fast Cast set safely transitions into the full duration/potency midcast set.
+This setup is very inconsistent as explained in the README file. Try to avoid:
 
 ```addon
 /equipset 48 echo [FastCast]
@@ -9,7 +10,7 @@ Spells with standard casting times where a pre-cast Fast Cast set safely transit
 /equipset 44 echo [AfterCast]
 ```
 
-JP example:
+Instead: either use manual pieces with /equip commands or idle in (partial) Fast Cast gear to have Fast Cast already equipped when the macro (spell) starts. Example (here /equipset 101 is mixed idle / Fast Cast gear):
 
 ```addon
 【/equip】 【胴】 【ピンガチュニック+1】
@@ -19,14 +20,6 @@ JP example:
 【/equipset】 111 echo 【ストンスキン】 <wait 7>
 【/equipset】 101 echo 待機
 ```
-
----
-
-## ⚡ Short Spells
-
-Use case: When a basic `<wait 1>` window is too long because the spell casting duration is short (e.g., Haste).
-
-In that case, hard-equipping a few dedicated Fast Cast pieces prior to casting is the best approach. The spell is short anyway, but at least benefits from some degree of fast cast equipment.
 
 English example:
 
@@ -47,14 +40,15 @@ JP example:
 【/equipset】 110 echo 汎用強化 <wait 3>
 【/equipset】 101 echo 待機
 ```
+
 ---
 
-## ⏱️ Very Short Spells
+## Very Short Spells
 
-Use case: When the base casting speed is so rapid that it is not actually necessary to equip fast cast gear at all.
+Use case: When the base casting speed is so rapid that it is not actually necessary to equip additional fast cast gear at all.
 
 ```addon
-/ma "Protect II" <me> <wait 1>
+/ma "Protect II" <me>
 /equipset 50 <wait 2> echo [Enhancing]
 /equipset 44 echo [AfterCast]
 ```
