@@ -85,7 +85,17 @@ In this case, you can apply Fastcast with `/equip` and Magic Effect Up with `/eq
 
 ---
 
-## ⚖️ Why Go Back to Vanilla?
+### Recast timers
+
+`<recast>` or `/recast`
+
+You can display the cooldown time via chat with "/p <recast=ability <b10>name or magic name>". Basically, it is used when it is necessary to relay tactical information like `Mewing Lullaby` cooldowns. It's often used in Scholar strategems, Corsair wildcards, and random deals.
+
+Unlike `/recast`, it is possible to display multiple recasts on a single line. However, too much information can sometimes hinder communication. Although it does not directly lead to action, it becomes a macro that indirectly helps from the perspective of planning.
+
+---
+
+## Why Go Back to Vanilla?
 
 Lua scripts offer infinite options that standard in-game `/equipset` commands cannot perfectly replicate.
 
