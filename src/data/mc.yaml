@@ -1,4 +1,4 @@
-# 2026-06-02 17:27:18
+# 2026-06-03 08:16:01
 - index: 1
   name: BLM
   palettes:
@@ -7,7 +7,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - 【/equipset】 103 echo [FC/idle/DT]
       - ''
       - ''
       - ''
@@ -16,7 +16,7 @@
     - index: 2
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -68,11 +68,11 @@
       - ''
       - ''
     - index: 8
-      title: ''
+      title: Stoneski
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/magic】 【ストンスキン】 <stpt>
+      - 【/equipset】 104 <wait 5> echo [Enhancing]
+      - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
       - ''
@@ -80,7 +80,7 @@
       title: Refresh
       lines:
       - 【/magic】 【リフレシュ】 <stpt>
-      - /equipset 115 <wait 2>
+      - /equipset 115 <wait 3>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -97,7 +97,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -106,18 +106,18 @@
     - index: 12
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: Stoneski
+      title: ''
       lines:
-      - 【/magic】 【ストンスキン】 <stpt>
-      - 【/equipset】 112 <wait 5> echo [Enhancing]
-      - 【/equipset】 103 echo [Aftercast]
+      - ''
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -189,7 +189,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -279,7 +279,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -371,7 +371,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -380,7 +380,7 @@
     - index: 2
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -461,7 +461,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -470,7 +470,7 @@
     - index: 12
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -553,7 +553,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -562,7 +562,7 @@
     - index: 2
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -643,7 +643,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -652,7 +652,7 @@
     - index: 12
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -735,7 +735,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -744,7 +744,7 @@
     - index: 2
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -807,25 +807,25 @@
     - index: 9
       title: Ic4 free
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 IV" <stnpc>
       - 【/equipset】 107 <wait 4> echo [FreeNuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 IV"
       - ''
+      - ''
     - index: 10
       title: Ic5 free
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【ブリザド】 V" <stnpc>
       - 【/equipset】 107 <wait 4> echo [FreeNuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 V"
       - ''
+      - ''
     - index: 11
       title: fcdt★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -834,7 +834,7 @@
     - index: 12
       title: reffc☆
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
+      - 【/equipset】 110 echo [FC/idle/refresh]
       - ''
       - ''
       - ''
@@ -897,20 +897,20 @@
     - index: 19
       title: San4free
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 IV" <stnpc>
       - 【/equipset】 107 <wait 4> echo [FreeNuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 IV"
       - ''
+      - ''
     - index: 20
       title: San5free
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【サンダー】 V" <stnpc>
       - 【/equipset】 107 <wait 4> echo [FreeNuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 V"
+      - ''
       - ''
   - index: 6
     macros:
@@ -1771,47 +1771,47 @@
     - index: 15
       title: Aspir
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【アスピル】 <stnpc>
       - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 16
       title: Aspir2
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【アスピル】 II" <stnpc>
       - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 17
       title: Aspir3
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 "【アスピル】 III" <stnpc>
       - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 18
       title: Dispel
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【ディスペル】 <stnpc>
       - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 19
       title: Dispelga
       lines:
-      - 【/equipset】 108 <wait 1> echo [Fast Cast]
       - 【/equip】 main Daybreak
       - 【/magic】 Dispelga <stnpc>
       - 【/equipset】 118 <wait 3> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
     - index: 20
       title: kite★
@@ -10963,18 +10963,18 @@
     - index: 3
       title: Box
       lines:
-      - /ja presto <me> <wait 2>
-      - /ja "Box Step" <t>
-      - /echo [Critical hit eva down]
+      - 【/jobability】 【プレスト】 <me> <wait 2>
+      - 【/jobability】 "【ボックスステップ】" <t>
+      - ''
       - ''
       - ''
       - ''
     - index: 4
       title: FeatS
       lines:
-      - /ja presto <me> <wait 2>
-      - /ja "Feather Step" <t>
-      - /echo [Critical hit eva down]
+      - 【/jobability】 【プレスト】 <me> <wait 2>
+      - 【/jobability】 "【フェザーステップ】" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -10990,8 +10990,8 @@
     - index: 6
       title: SabDance
       lines:
-      - /ja "Saber Dance" <me>
-      - /echo [DA up]
+      - 【/jobability】 "【剣の舞い】" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -10999,7 +10999,7 @@
     - index: 7
       title: Haste
       lines:
-      - /ja "Haste Samba" <me>
+      - 【/jobability】 "【ヘイストサンバ】" <me>
       - ''
       - ''
       - ''
@@ -11008,35 +11008,35 @@
     - index: 8
       title: Warcry
       lines:
-      - /ja 【ウォークライ】 <me>
-      - /recast 【ウォークライ】
-      - /recast "Saber Dance"
+      - 【/jobability】 【ウォークライ】 <me>
+      - 【/recast】 【ウォークライ】
+      - 【/recast】 "【剣の舞い】"
       - ''
       - ''
       - ''
     - index: 9
       title: Berserk
       lines:
-      - /ja 【バーサク】 <me>
-      - /echo 【バーサク】
-      - /recast 【バーサク】
+      - 【/jobability】 【バーサク】 <me>
+      - 【/recast】 【バーサク】
+      - ''
       - ''
       - ''
       - ''
     - index: 10
       title: Aggresso
       lines:
-      - /ja 【アグレッサー】 <me>
-      - /echo 【アグレッサー】
-      - /recast 【アグレッサー】
+      - 【/jobability】 【アグレッサー】 <me>
+      - 【/recast】 【アグレッサー】
+      - ''
       - ''
       - ''
       - ''
     - index: 11
       title: StuttS
       lines:
-      - /ja "Stutter Step" <t>
-      - /echo [Magic Def down]
+      - 【/jobability】 "【スタッターステップ】" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -11053,7 +11053,7 @@
     - index: 13
       title: voke
       lines:
-      - /ja provoke <t>
+      - 【/jobability】 【挑発】 <t>
       - ''
       - ''
       - ''
@@ -11080,7 +11080,7 @@
     - index: 16
       title: CW3
       lines:
-      - /ja "【ケアルワルツ】 III" <stpc> <wait 3>
+      - 【/jobability】 "【ケアルワルツ】 III" <stpc> <wait 3>
       - 【/equipset】 75
       - ''
       - ''
@@ -11090,7 +11090,7 @@
       title: Evisc
       lines:
       - 【/equipset】 76
-      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait 4>
+      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait>
       - 【/equipset】 75
       - ''
       - ''
@@ -11099,7 +11099,7 @@
       title: Rudra
       lines:
       - 【/equipset】 78
-      - 【/weaponskill】 "【ルドラストーム】" <t> <wait 4>
+      - 【/weaponskill】 "【ルドラストーム】" <t> <wait>
       - 【/equipset】 75
       - ''
       - ''
@@ -11107,8 +11107,8 @@
     - index: 19
       title: ClimF
       lines:
-      - /ja "【C.フラリッシュ】" <me>
-      - /echo [Critical hits]
+      - 【/jobability】 "【C.フラリッシュ】" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -11182,16 +11182,16 @@
       title: Aeloean
       lines:
       - 【/equipset】 79
-      - 【/weaponskill】 "【イオリアンエッジ】" <t> <wait 4>
+      - 【/weaponskill】 "【イオリアンエッジ】" <t> <wait>
       - 【/equipset】 75
       - ''
       - ''
       - ''
     - index: 8
-      title: TH
+      title: ''
       lines:
-      - /equipset 199
-      - /echo General TH set equipped
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -11235,8 +11235,8 @@
     - index: 13
       title: d1
       lines:
-      - '/ma "Utsusemi: Ichi" <me>'
-      - ''
+      - '【/magic】 "Utsusemi: Ichi" <me>'
+      - '【/recast】 "Utsusemi: Ichi"'
       - ''
       - ''
       - ''
@@ -11244,8 +11244,8 @@
     - index: 14
       title: d2
       lines:
-      - '/ma "Utsusemi: Ni" <me>'
-      - '/recast "Utsusemi: Ni"'
+      - '【/magic】 "Utsusemi: Ni" <me>'
+      - '【/recast】 "Utsusemi: Ni"'
       - ''
       - ''
       - ''
@@ -11325,18 +11325,18 @@
       - ''
       - ''
     - index: 3
-      title: ''
+      title: Build
       lines:
-      - ''
+      - 【/jobability】 "【B.フラリッシュ】" <me>
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: ''
+      title: Wild
       lines:
-      - ''
+      - 【/jobability】 "【W.フラリッシュ】" <me>
       - ''
       - ''
       - ''
@@ -11345,16 +11345,16 @@
     - index: 5
       title: TernaryF
       lines:
-      - /ja "Ternary Flourish" <me>
-      - /echo [Triple Attack]
+      - 【/jobability】 "【T.フラリッシュ】" <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: Presto
+      title: RevF
       lines:
-      - /ja presto <me>
+      - 【/jobability】 "【R.フラリッシュ】" <me>
       - ''
       - ''
       - ''
@@ -11363,8 +11363,8 @@
     - index: 7
       title: AniFvoke
       lines:
-      - /ja "【A.フラリッシュ】" <t>
-      - /echo [Provoke]
+      - 【/jobability】 "【A.フラリッシュ】" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -11388,10 +11388,10 @@
       - ''
       - ''
     - index: 10
-      title: StuttS
+      title: ''
       lines:
-      - /ja "Stutter Step" <t>
-      - /echo [Magic Def down]
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -11433,28 +11433,28 @@
       - ''
       - ''
     - index: 15
-      title: Wild
+      title: ''
       lines:
-      - /ja "Wild Flourish" <me>
-      - /echo Ready target for SC
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: RevF
+      title: ''
       lines:
-      - /ja "Reverse Flourish" <me>
-      - /echo [Get TP from Finishing Moves]
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 17
-      title: SabDance
+      title: ''
       lines:
-      - /ja "Saber Dance" <me>
-      - /echo [DA up]
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -11478,10 +11478,10 @@
       - ''
       - ''
     - index: 20
-      title: Build
+      title: ''
       lines:
-      - /ja "Building Flourish" <me>
-      - /echo Next WS potency up
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -11500,7 +11500,7 @@
     - index: 2
       title: CW5
       lines:
-      - /ja "【ケアルワルツ】 V" <me>
+      - 【/jobability】 "【ケアルワルツ】 V" <me>
       - ''
       - ''
       - ''
@@ -11518,7 +11518,7 @@
     - index: 4
       title: CW3
       lines:
-      - /ja "【ケアルワルツ】 III" <stpc>
+      - 【/jobability】 "【ケアルワルツ】 III" <stpc>
       - ''
       - ''
       - ''
@@ -12399,36 +12399,36 @@
   - index: 9
     macros:
     - index: 1
-      title: Sylvie
+      title: ''
       lines:
-      - /ma "Sylvie (UC)" <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: Monb
+      title: ''
       lines:
-      - /ma Monberaux <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: Joachim
+      title: ''
       lines:
-      - /ma joachim <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: Qultada
+      title: ''
       lines:
-      - /ma qultada <me>
+      - ''
       - ''
       - ''
       - ''
@@ -12718,8 +12718,8 @@
     - index: 16
       title: warp★
       lines:
-      - /equipset 1 <wait 10>
-      - /item "Warp Ring" <me>
+      - 【/equipset】 1 <wait 10>
+      - 【/item】 "Warp Ring" <me>
       - ''
       - ''
       - ''
@@ -12743,20 +12743,20 @@
       - ''
       - ''
     - index: 19
-      title: Invis
+      title: Invis♪
       lines:
       - 【/equipset】 74
       - 【/jobability】 "【スペクトラルジグ】" <me> <wait>
-      - /recast "【スペクトラルジグ】"
+      - 【/recast】 "【スペクトラルジグ】"
       - ''
       - ''
       - ''
     - index: 20
-      title: Idle/Kit
+      title: kite★
       lines:
       - 【/equipset】 74
       - 【/jobability】 "【チョコボジグ】 II" <me> <wait>
-      - /recast "【チョコボジグ】"
+      - 【/recast】 "【チョコボジグ】"
       - ''
       - ''
       - ''
@@ -14592,7 +14592,7 @@
       title: range
       lines:
       - 【/equipset】 160 echo [Snapshot]
-      - 【/range】 <stnpc> <wait>
+      - 【/range】 <stnpc> <wait 2>
       - 【/equipset】 152 echo [Chakutama]
       - ''
       - ''
@@ -14607,10 +14607,10 @@
       - ''
       - ''
     - index: 3
-      title: UnlimSho
+      title: Camoufla
       lines:
-      - 【/jobability】 "【エンドレスショット】" <me>
-      - 【/recast】 "【エンドレスショット】"
+      - "【/jobability】 【カモフラージュ】 <me>\0>"
+      - "【/recast】 【カモフラージュ】\0\""
       - ''
       - ''
       - ''
@@ -14634,10 +14634,10 @@
       - ''
       - ''
     - index: 6
-      title: ''
+      title: UnlimSho
       lines:
-      - ''
-      - ''
+      - 【/jobability】 "【エンドレスショット】" <me>
+      - 【/recast】 "【エンドレスショット】"
       - ''
       - ''
       - ''
