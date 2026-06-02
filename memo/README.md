@@ -5,33 +5,75 @@ The logic used in these macros are adapted from:
 * **[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
 * **[マクロ覚書3 ～ equip と equipset ～](https://leaguemili.com/blog-entry-1692.html)**
 
-## Explanation on wait durations, slot names, and how to equip one of multiple items with the same name (Ambuscade capes)
+## FFXI Macro Guide: Wait Times, Equipment Commands, and Duplicate Items
 
 ### Advantage of /equip:
 
 > No wait restrictions. Disadvantage: Limited number of equipment changes. To use different equipment with the same name, you must store them separately: Storage locations are specified by half-width numbers. 0: My Bag 1: Mog Wardrobe 1 2: Mog Wardrobe 2 3: Mog Wardrobe 3 4: Mog Wardrobe 4. No specification: Find the target equipment name in the order 0 1 2 3 4 and specify the first one you hit.
 
-### Advantage of /equipset:
 
-> You can change equipment to about all in just one macro line. You can switch between equipment with the same name within the same storage.
-Disadvantages: You need to wait 1 time between equipment sets.
+### The `/equipset` Command
 
-To log the execution, leave a half-width space after the equipment set number and enter `echo`.
+* **Advantage:** Changes your entire gear set (up to 16 slots) in a single macro line. It can also successfully differentiate between duplicate items even if they are stored within the same wardrobe.
+* **Disadvantage:** Imposes a mandatory **1-second cooldown** delay before another equipment set can be executed.
+* **Logging:** To log the execution of an equipset in your chat log, add a space and type `echo` after the set number (e.g., `/equipset 1 echo`).
 
-### wait
+---
 
-The command /wait or <wait> generates a specified number of waits between the macro lines.
+## Understanding `<wait>` and `/wait`
 
-```addon
-wait 1 = about 1.2 seconds,
-wait 2 = about 2.0 seconds,
-wait 3 = about 3.2 seconds,
-wait 4 = about 4.0 seconds,
-wait 5 = about 5.2 seconds,
-wait 6 = about 6.0 seconds
-```
+The `/wait` command (or the `<wait>` pronoun) inserts a specific delay between macro lines.
 
-* The communication interval with the server is said to be 0.4 seconds (or 0.33 seconds), so there may be a slight discrepancy between the number of seconds specified by the wait value and the actual result.
+### Actual Delay Timings
+
+Because the FFXI server communication interval (tick rate) operates on roughly a 0.4-second (or 0.33-second) cycle, there is a slight discrepancy between the input `wait` value and the actual in-game delay:
+
+* `<wait 1>` = ~1.2 seconds
+* `<wait 2>` = ~2.0 seconds
+* `<wait 3>` = ~3.2 seconds
+* `<wait 4>` = ~4.0 seconds
+* `<wait 5>` = ~5.2 seconds
+* `<wait 6>` = ~6.0 seconds
+
+> ⚠️ *Note: Values over 60 or decimal values (e.g., 1.5) are not recognized by the game client.*
+
+Using the standalone `/wait` command consumes an entire macro line, so it is rarely used. Instead, append the `<wait>` pronoun to the end of a text command, separated by a half-width space.
+
+* **Example:** `/ws "Fast Blade" <t> <wait 1>`
+* *Meaning:* Initiates the Fast Blade animation and waits roughly 1.2 seconds before executing the next line of the macro.
+
+
+
+### Using `<wait>` Without a Value
+
+If you use `<wait>` without specifying a number, the macro will pause only until the next line is recognized by the game client. This delay can be even shorter than a `<wait 1>`.
+
+While this method is too unpredictable for precise gear swapping, it is highly effective for rapidly spamming job abilities (JAs), as it offers a slight speed increase.
+
+---
+
+## Why Wait Control is Necessary
+
+When changing equipment to cast spells, activate abilities, or execute Weapon Skills, precision timing is required. If your wait times are poorly optimized, the macro will error out or fail to execute as intended.
+
+While a standard 6-line macro naturally executes from top to bottom with a microscopic delay between each line, this native delay is static, extremely brief, and cannot be adjusted by the text command itself. Therefore, you must manually define your wait times.
+
+### Beware of Network Lag
+
+You must always factor server lag into your macro timings.
+
+For instance, consider a spell with a 2-second casting time using the following macro sequence:
+
+1. `/equipset 5` (Precast/Fast Cast Gear)
+2. `/ma "Cure III" <t> <wait 2>`
+3. `/equipset 1` (Idle/Defensive Gear)
+
+If the server experiences a minor spike in lag, the spell might actually land *after* line 3 executes, causing your spell to land in your Idle gear instead of your Midcast/Potency gear.
+
+Changing the delay to `<wait 3>` ensures a safer buffer. While it feels a bit slower, it guarantees that your spell benefits from your specialized gear sets regardless of network instability.
+
+> 💡 **The Golden Rule:** The primary goal of a macro is to execute exactly as intended. Do not sacrifice mechanical accuracy in pursuit of shaving off a fraction of a second.
+
 
 ## Distinguishing between uses
 
