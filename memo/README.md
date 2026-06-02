@@ -6,7 +6,14 @@
 
 The logic used in these macros are adapted from:
 
-🔗 **[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
+**[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
+
+---
+
+
+## Explanation on wait durations, slot names, and how to equip one of multiple items with the same name (Ambuscade capes)
+
+https://leaguemili.com/blog-entry-1692.html
 
 ---
 
