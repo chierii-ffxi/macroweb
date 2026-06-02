@@ -184,6 +184,83 @@ What used to be a negligible millisecond error in the past is now a major optimi
 
 ---
 
+Here is the optimized English translation of the "Rigamiri Report" entry on Fast Cast and Macros. I have polished the text, retained its conversational but analytical tone, and kept all relevant client-server logic accurate for FFXI players.
+
+---
+
+## FFXI Macro Guide: Fast Cast and Macro Synchronization
+
+Have you ever updated your gear, gained a bunch of Fast Cast (FC), and suddenly noticed your trusty macros stopped working properly?
+With the abundance of high-tier Fast Cast gear in modern FFXI, this has become a incredibly common issue. For a game where mid-cast gear swapping dictates your entire performance, a broken macro can be fatal. This guide outlines four concrete solutions and analyzes a real-world example.
+
+> ⚠️ *Note: The following strategies are based on community research and personal testing. Due to variations in individual network latency and hardware environments, your results may vary slightly.*
+
+---
+
+## Four Core Solutions
+
+If your macros are breaking due to high Fast Cast values, consider these four optimization paths:
+
+1. **Pre-idle in Fast Cast Gear:** This is the gold standard for backline Mage jobs. You stay in your FC gear by default while idling. When it's time to cast, your macro simply initiates the spell and tells the game to swap directly to your potency/mid-cast set.
+*(Note: If your total casting time drops below 0.603 seconds, you still run the risk of the mid-cast set failing to register).*
+2. **Swap Individual Pieces Instead of Equipsets:** Instead of a full `/equipset`, use raw `/equip` commands for individual slots. This works perfectly for both frontline and backline jobs. Because you can only fit a few swaps per macro, you will need top-tier, high-value FC gear pieces to make it count.
+3. **Hybridized Equipsets:** Create a specialized equipment set that blends Fast Cast stats with your actual Potency or Spell Interruption Down stats. This is highly effective for spells where you want to minimize the recast timer as much as possible, or when casting under heavy enemy pressure.
+4. **Cap Your Fast Cast Set to Prevent Dropping Below `<wait 1>`:** Deliberately limit the amount of FC in your precast set so the spell doesn't finish before the server can process your mid-cast gear change. *(See the example below).*
+
+Personally, I am trying to stick to method #1 and sometimes method #2.
+
+---
+
+## The 1-Second Equipset Lockout
+
+The core mechanical hurdle we are trying to bypass is the built-in game rule:
+
+> After executing an `/equipset` command, you cannot execute another `/equipset` for roughly **1 second** (`<wait 1>`).
+
+Every solution listed above is designed purely to circumvent or work around this hard-coded limitation.
+
+As a reminder, `<wait 1>` does not actually equal exactly 1.0 second; it fluctuates between **0.833 and 1.25 seconds** depending on when your command hits the server's 0.417-second tick rate.
+
+For a deep dive into the math behind this latency loop, see above (*FFXI Macro Guide: Why Wait Times Are Inconsistent*).
+
+---
+
+## Practical Example: 3-Second Base Cast Spell Macro
+
+Let's look at Enhancing Magic spells (like Phalanx or Aquaveil) which frequently feature a standard **3.0-second base casting time**.
+
+### The Setup:
+
+* **Equipset 36:** Fast Cast Gear (Precast)
+* **Equipset 39:** Potency / Enhancing Magic Effect+ Gear (Midcast)
+* **Equipset 21:** Standard Idle / Defensive Gear
+
+### The Traditional Macro Structure:
+
+I can confirm that I tried this and it often failed mightily:
+
+```addon
+/equipset 36 <wait 1>
+/ma "Phalanx" <me>
+/equipset 39 <wait 2>
+/equipset 21
+```
+
+If you are running a macro that loops through: `[FC Set] -> [Cast Spell] -> [Potency Set] -> [Idle Set]`, the absolute hard mathematical cap for the Fast Cast value in your precast set is **67% FC**.
+
+### The Mystery of the 67% Cap
+
+Mathematically speaking, if a server lag spike stretches a `<wait 1>` out to its maximum duration of 1.25 seconds, you shouldn't be running more than 58% FC, otherwise the spell would land before the potency set could equip. Yet, in practice, a value of **67% FC remains perfectly stable** even in laggy, congested zones.
+
+Furthermore, if you change line 3 (the Potency Set) to a `<wait 1>` instead of a `<wait 2>`, the spell will occasionally finish casting in your **Idle Set (Equipset 21)**. This implies that the total time required to finish casting is somewhere between `wait 1 + wait 1` (a window of 1.667 to 2.083 seconds). However, the moment you push your precast FC up to **68%**, the macro instantly breaks, and the spell lands entirely in your precast FC gear.
+
+To this day, the exact client-side interplay causing this remains a bit of a mystery. Is the true base casting time of these spells secretly a fraction longer than 3.0 seconds? Or is it just the server communication intervals playing tricks on us?
+
+Regardless of the "why," the data doesn't lie: if you are using full equipset macro chains for 3-second spells, **keep your precast Fast Cast capped at 67%** to ensure flawless gearswaps. (method #4)
+
+
+---
+
 ### Recast timers
 
 `<recast>` or `/recast`
