@@ -10,9 +10,9 @@ Targeting the **80% Hard Cap** for Precast sets.
 
 ---
 
-Ideal hybrid idle set will have both fast cast, DT, and refresh.
+# Ideal hybrid idle set will have both fast cast, DT, and refresh.
 
-## Precast Gear Pieces
+## Fast cast slots
 
 * **Back:** Fi Follet Cape +1 (10 %)
 * **Neck:** Torque (4 %)
