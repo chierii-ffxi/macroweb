@@ -1,9 +1,10 @@
 # FFXI Vanilla Macro & Equipset Optimizations
 
-The logic used in these macros are adapted from:
+Most of the text and examples are translated from:
 
-* **[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
 * **[マクロ覚書3 ～ equip と equipset ～](https://leaguemili.com/blog-entry-1692.html)**
+* **[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
+
 
 ## FFXI Macro Guide: Wait Times, Equipment Commands, and Duplicate Items
 
@@ -82,6 +83,102 @@ Basically, it's best to prioritize using `/equip` and use `/equipset` when the m
 
 If the magic casting time for the Fastcast equipment set falls below 1 WAIT time, the magic effect enhancement equipment set will no longer be reflected.
 In this case, you can apply Fastcast with `/equip` and Magic Effect Up with `/equipset`, reflecting both effects.
+
+---
+
+
+Here is the optimized English translation of your second notebook entry. I have polished the text to read naturally for an English-speaking audience, preserved the technical accuracy of the FFXI server ticks, formatted the raw data into a clean Markdown table, and updated the Twitter references to modern "X" terminology.
+
+---
+
+## FFXI Macro Guide: Why Wait Times Are Inconsistent
+
+* **Published:** 2020/12/21 | **Updated:** 2026/01/07
+
+The `<wait>` command is vital for controlling our macros by introducing necessary delays. However, the actual processing time for a given wait value is not a fixed constant. This guide explains why that happens and how to optimize for it.
+
+---
+
+## FFXI's 0.417-Second Server Tick Rate
+
+According to research shared by FFXI player @funanz on X (formerly Twitter), 
+Final Fantasy XI communicates with the server in rigid intervals of **0.417 seconds**.
+
+> 🔗 **Reference Link:** [Original X Thread by @funanz](https://twitter.com/funanz/status/1339548696392843265)
+
+**When you use a `<wait>` command to control a delay, the game cannot process it at the exact second specified.** Instead, it *rounds your action to the nearest server tick*, creating a **potential discrepancy of up to 0.417 seconds** (with the exception of wait values that are multiples of 5). Knowing this rule changes how we build our gearswaps.
+
+---
+
+### Server Processing Windows by Wait Value
+
+| Wait Value | Minimum Delay (sec) | Maximum Delay (sec) |
+| --- | --- | --- |
+| **1** | 0.833 | 1.250 |
+| **2** | 1.667 | 2.083 |
+| **3** | 2.917 | 3.333 |
+| **4** | 3.750 | 4.167 |
+| **5** | **5.000** | **5.000** |
+| **6** | 5.833 | 6.250 |
+| **7** | 6.667 | 7.083 |
+| **8** | 7.917 | 8.333 |
+| **9** | 8.750 | 9.167 |
+| **10** | **10.000** | **10.000** |
+
+> ⚠️ *Note: Because client performance and hardware frame rates vary, actual real-world values may differ slightly from user to user.*
+
+---
+
+## Practical Example
+
+Consider this defensive Paladin macro:
+
+```text
+/equipset 17 (React Gear)
+/ma "React" <me> <wait 1>
+/ja "Palisade" <me>
+/equip back "Moonlight Cape"
+/equipset 8 (Palisade / Defensive Gear)
+```
+
+This macro is built to cast React in `equipset 17`. 
+If React is on cooldown, it *automatically moves down the lines to activate Palisade in `equipset 8` instead*.
+
+The **base casting time** of React is **1.0 second**. 
+The delay between transmitting `/ma "React"` and transmitting the next line is defined by `<wait 1>`. 
+Therefore, React *must* finish casting completely within that `<wait 1>` window.
+
+Because the server ticks every 0.417 seconds, a `<wait 1>` will actually process at either **0.833 seconds** or **1.250 seconds**. To guarantee that React always finishes casting in time, the *cast duration must be compressed below the minimum threshold of 0.833 seconds*. This mathematically requires a minimum of **17% Fast Cast**.
+
+### The Client Factor
+
+In reality, raw math isn't enough because local hardware lag plays a role. You cannot just aim for exactly 0.833 seconds and expect it to work perfectly. You must **test your macros repeatedly in your own gameplay environment to find your sweet spot**. 
+Some failures only occur once every 20 casts or under specific combat conditions.
+
+* In the above blog writer's environment, a 20% Fast Cast setup still occasionally failed. They bumped it up to **22% FC (bringing the cast time down to 0.78 seconds)** and it is now stable.
+* For @funanz (who conducted the original tick research), their macros stopped failing entirely once they pushed the cast time down to **0.76 seconds**.
+
+---
+
+## Fast Cast (FC) Idle Gear Failures & Workarounds
+
+Due to how the game queues commands, if you build a macro that immediately swaps from **Fast Cast idle sets** into high-potency midcast gear *without* using a wait line, it will occasionally glitch and fail to register the midcast equipment.
+
+* **Trigger Condition:** Occurs on spells where the total casting time drops **below 0.603 seconds**.
+* **Fix 1:** Change your target to `<st>` (e.g., `/ma "Cure III" <st>`). *Note: Using `<lastst>` will not fix the issue.*
+* **Fix 2:** Adjust your gear to deliberately keep your casting time at **0.603 seconds or higher**.
+* **Fix 3:** Simply recast the spell manually if it fails *(only recommended if the spell has a fast recast time and low consequences).*
+
+### Recommendation
+
+For the vast majority of players, **Fix 1** is the cleanest solution.
+
+However, if you dislike the extra stroke (or controller input) required by the sub-target menu, or if you play a Tank job where sitting in vulnerable Fast Cast gear for a fraction of a second poses a lethal risk, you should design your sets around **Fix 2** or **Fix 3**.
+
+> 🔗 **Deep Dive:** [See this follow-up X thread by @funanz for the full breakdown.](https://x.com/funanz/status/1547521535283720192)
+
+As modern FFXI gameplay has accelerated, we cast spells far more frequently, and our casting speeds are incomparably faster than they were in the past. As things get faster, macro control becomes significantly harder. Because modern individual gear pieces hold so much stat power, failing a gearswap hurts your performance more than ever before. What used to be a negligible millisecond error in the past is now a major optimization problem we have to account for.
+
 
 ---
 
