@@ -2,29 +2,29 @@
 
 The logic used in these macros are adapted from:
 
-**[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
-**[マクロ覚書3 ～ equip と equipset ～](https://leaguemili.com/blog-entry-1692.html)**
+* **[FF11マクロ研究所 (hamham-fenrir.github.io/macroweb/)](https://hamham-fenrir.github.io/macroweb/)**
+* **[マクロ覚書3 ～ equip と equipset ～](https://leaguemili.com/blog-entry-1692.html)**
 
 ## Explanation on wait durations, slot names, and how to equip one of multiple items with the same name (Ambuscade capes)
 
 * Advantage of /equip:
 
-  > No wait restrictions. Disadvantage: Limited number of equipment changes. To use different equipment with the same name, you must store them separately: Storage locations are specified by half-width numbers. 0: My Bag 1: Mog Wardrobe 1 2: Mog Wardrobe 2 3: Mog Wardrobe 3 4: Mog Wardrobe 4. No specification: Find the target equipment name in the order 0 1 2 3 4 and specify the first one you hit.
+> No wait restrictions. Disadvantage: Limited number of equipment changes. To use different equipment with the same name, you must store them separately: Storage locations are specified by half-width numbers. 0: My Bag 1: Mog Wardrobe 1 2: Mog Wardrobe 2 3: Mog Wardrobe 3 4: Mog Wardrobe 4. No specification: Find the target equipment name in the order 0 1 2 3 4 and specify the first one you hit.
 
 * Advantage of /equipset:
 
-  > You can change equipment to about all in just one macro line. You can switch between equipment with the same name within the same storage.
+> You can change equipment to about all in just one macro line. You can switch between equipment with the same name within the same storage.
 Disadvantages: You need to wait 1 time between equipment sets.
 
-* To log the execution, leave a half-width space after the equipment set number and enter echo.
+* To log the execution, leave a half-width space after the equipment set number and enter `echo`.
 
 ## Distinguishing between uses
 
-At first glance, /equip may seem unnecessary, but frequent use of /equipset leads to frequent errors caused by the wait 1 limit.
-Basically, it's best to prioritize using /equip and use /equipset when the macro runs out of rows.
+At first glance, `/equip` may seem unnecessary, but frequent use of `/equipset` leads to frequent errors caused by the `wait 1` limit.
+Basically, it's best to prioritize using `/equip` and use `/equipset` when the macro runs out of rows.
 
 If the magic casting time for the Fastcast equipment set falls below 1 WAIT time, the magic effect enhancement equipment set will no longer be reflected.
-In this case, you can apply Fastcast with /equip and Magic Effect Up with /equipset, reflecting both effects.
+In this case, you can apply Fastcast with `/equip` and Magic Effect Up with `/equipset`, reflecting both effects.
 
 ---
 
