@@ -30,13 +30,14 @@ Targeting the **80% Hard Cap** for Precast sets.
 * **Ring2:** Refresh +1 or DT 10 %
 * **Waist:**
 * **Head:**
-* **Body:** 
+* **Body:** (idk. maybe Wicce Coat +3 Refresh +4 MEva +141)
 * **Feet:** Wicce Sabots +3 (DT 11 %)
 
 ## If more FC needed (M. Lv < 30% or different subjob)
 
 * **Head:** Vanya (10 %)
 * **Body:** Agwu (8 %)
+* **Waist:** Embla Sash (5 %)
 ---
 
 ## ⚠️ Macro Reminder
