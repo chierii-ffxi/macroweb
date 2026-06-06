@@ -1,4 +1,4 @@
-# 2026-06-04 19:22:48
+# 2026-06-06 21:06:47
 - index: 1
   name: BLM
   palettes:
@@ -189,7 +189,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - 【/equipset】 103 echo [FC/idle/DT]
       - ''
       - ''
       - ''
@@ -208,7 +208,7 @@
       title: Ice2♪
       lines:
       - 【/magic】 "【ブリザド】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 II"
       - ''
@@ -217,7 +217,7 @@
       title: Ice3♪
       lines:
       - 【/magic】 "【ブリザド】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 III"
       - ''
@@ -226,7 +226,7 @@
       title: Ice4♪
       lines:
       - 【/magic】 "【ブリザド】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 IV"
       - ''
@@ -253,7 +253,7 @@
       title: Ice6♪
       lines:
       - 【/magic】 "【ブリザド】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 VI"
       - ''
@@ -298,7 +298,7 @@
       title: San2♪
       lines:
       - 【/magic】 "【サンダー】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 II"
       - ''
@@ -307,7 +307,7 @@
       title: San3♪
       lines:
       - 【/magic】 "【サンダー】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 III"
       - ''
@@ -316,7 +316,7 @@
       title: San4♪
       lines:
       - 【/magic】 "【サンダー】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 IV"
       - ''
@@ -343,7 +343,7 @@
       title: San6♪
       lines:
       - 【/magic】 "【サンダー】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 VI"
       - ''
@@ -390,7 +390,7 @@
       title: Aer2♪
       lines:
       - 【/magic】 "【エアロ】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【エアロ】 II"
       - ''
@@ -399,7 +399,7 @@
       title: Aer3♪
       lines:
       - 【/magic】 "【エアロ】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【エアロ】 III"
       - ''
@@ -408,7 +408,7 @@
       title: Aer4♪
       lines:
       - 【/magic】 "【エアロ】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【エアロ】 IV"
       - ''
@@ -435,7 +435,7 @@
       title: Aer6♪
       lines:
       - 【/magic】 "【エアロ】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【エアロ】 VI"
       - ''
@@ -480,7 +480,7 @@
       title: Wat2♪
       lines:
       - 【/magic】 "【ウォータ】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ウォータ】 II"
       - ''
@@ -489,7 +489,7 @@
       title: Wat3♪
       lines:
       - 【/magic】 "【ウォータ】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ウォータ】 III"
       - ''
@@ -498,7 +498,7 @@
       title: Wat4♪
       lines:
       - 【/magic】 "【ウォータ】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ウォータ】 IV"
       - ''
@@ -525,7 +525,7 @@
       title: Wat6♪
       lines:
       - 【/magic】 "【ウォータ】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ウォータ】 VI"
       - ''
@@ -572,7 +572,7 @@
       title: Fire2♪
       lines:
       - 【/magic】 "【ファイア】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ファイア】 II"
       - ''
@@ -581,7 +581,7 @@
       title: Fire3♪
       lines:
       - 【/magic】 "【ファイア】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ファイア】 III"
       - ''
@@ -590,7 +590,7 @@
       title: Fire4♪
       lines:
       - 【/magic】 "【ファイア】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ファイア】 IV"
       - ''
@@ -617,7 +617,7 @@
       title: Fire6♪
       lines:
       - 【/magic】 "【ファイア】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ファイア】 VI"
       - ''
@@ -659,30 +659,30 @@
       - ''
       - ''
     - index: 13
-      title: Wat2♪
+      title: Ston2♪
       lines:
-      - 【/magic】 "【ウォータ】 II" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/magic】 "【ストーン】 II" <stnpc>
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
-      - 【/recast】 "【ウォータ】 II"
+      - 【/recast】 "【ストーン】 II"
       - ''
       - ''
     - index: 14
-      title: Wat3♪
+      title: Ston3♪
       lines:
-      - 【/magic】 "【ウォータ】 III" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/magic】 "【ストーン】 III" <stnpc>
+      - 【/equipset】 106 <wait 2> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
-      - 【/recast】 "【ウォータ】 III"
+      - 【/recast】 "【ストーン】 III"
       - ''
       - ''
     - index: 15
-      title: Wat4♪
+      title: Ston4♪
       lines:
-      - 【/magic】 "【ウォータ】 IV" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/magic】 "【ストーン】 IV" <stnpc>
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
-      - 【/recast】 "【ウォータ】 IV"
+      - 【/recast】 "【ストーン】 IV"
       - ''
       - ''
     - index: 16
@@ -707,7 +707,7 @@
       title: Stone6♪
       lines:
       - 【/magic】 "【ストーン】 VI" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ストーン】 VI"
       - ''
@@ -1816,7 +1816,7 @@
     - index: 20
       title: kite★
       lines:
-      - 【/equipset】 103 <wait 1> echo [Aftercast]
+      - 【/equipset】 102 <wait 1> echo kiterefresh
       - 【/equip】 ring2 "【シュネデックリング】"
       - ''
       - ''
@@ -1835,7 +1835,7 @@
       - 【/equip】 【両脚】 "Pinga Pants"
       - 【/magic】 "【ケアル】 III" <st>
       - 【/equipset】 184 echo <wait 2>
-      - 【/equipset】 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 2
       title: Cure5
       lines:
@@ -1844,7 +1844,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Cure V" <st>
       - /equipset 184 echo <wait 2>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 3
       title: Curaga3
       lines:
@@ -1853,7 +1853,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Curaga III" <st>
       - /equipset 184 echo <wait 2>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 4
       title: Curaga5
       lines:
@@ -1862,7 +1862,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Curaga III" <st>
       - /equipset 184 echo <wait 4>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 5
       title: Soragrim
       lines:
@@ -1878,7 +1878,7 @@
       - /equipset 188 echo FC
       - /ma "Aurorastorm" <stpt>
       - /equipset 192 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 7
@@ -1887,7 +1887,7 @@
       - /equipset 188 echo FC
       - /ma "Regen IV" <stpt>
       - /equipset 195 echo Regen <wait 4>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 8
@@ -1895,7 +1895,7 @@
       lines:
       - /equipset 188 echo FC
       - /ma "Dia II" <stnpc>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -1907,7 +1907,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Haste" <stpt>
       - /equipset 192 echo Enhance <wait 3>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 10
       title: Erase
       lines:
@@ -1916,20 +1916,20 @@
       - /equip legs "Pinga Pants"
       - /ma "Erase" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 11
-      title: idleRef
+      title: FCidle
       lines:
-      - /equipset 183
-      - /equip ring2 "【スティキニリング+1】"
-      - /equip neck "【シビルスカーフ】"
+      - 【/equipset】 183 echo [Idle/FC/refresh]
+      - ''
+      - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: Acc
+      title: FCidleDT
       lines:
-      - /ja 【女神降臨の章】 <me>
+      - 【/equipset】 188 echo [Idle/FC/DT]
       - ''
       - ''
       - ''
@@ -1941,7 +1941,7 @@
       - /equipset 188 echo FC
       - /ma "Auspice" <me> <stpt>
       - /equipset 192 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 14
@@ -1949,7 +1949,7 @@
       lines:
       - /ma "Boost-STR" <me> <stpt>
       - /equipset 192 echo Enhance <wait 5>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -1958,7 +1958,7 @@
       lines:
       - /ma "Barthundra" <stpt>
       - /equipset 191 echo EnhanceBar <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -1968,14 +1968,14 @@
       - /equip body "【インヤガジュバ+2】"
       - /ma "Silence" <stnpc> <wait 3>
       - /equipset 196 echo EnfeebleMND <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 17
-      title: FC
+      title: Acc
       lines:
-      - /equipset 188 echo FC
-      - ''
+      - /ja 【女神降臨の章】 <me>
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -1988,7 +1988,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Stoneskin" <stpt>
       - /equipset 200 echo Stoneskin <wait 6>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 19
       title: Blink
       lines:
@@ -1997,7 +1997,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Blink" <me> <stpt>
       - /equipset 192 echo Enhance <wait 5>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 20
       title: Aquaveil
       lines:
@@ -2006,7 +2006,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Aquaveil" <me> <stpt>
       - /equipset 192 echo Enhance <wait 5>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
   - index: 2
     macros:
     - index: 1
@@ -2017,7 +2017,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Stona" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 2
       title: Silena
       lines:
@@ -2026,7 +2026,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Silena" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 3
       title: Parana
       lines:
@@ -2035,7 +2035,7 @@
       - /equip legs "Pinga Pants"
       - /ma "【パラナ】" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 4
       title: Blindna
       lines:
@@ -2044,7 +2044,7 @@
       - /equip legs "Pinga Pants"
       - /ma "【ブライナ】" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 5
       title: Viruna
       lines:
@@ -2053,7 +2053,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Viruna" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 6
       title: Poisona
       lines:
@@ -2062,7 +2062,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Poisona" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 7
       title: Cursna
       lines:
@@ -2071,7 +2071,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Cursna" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 8
       title: Ref
       lines:
@@ -2080,14 +2080,14 @@
       - /equip legs "Pinga Pants"
       - /ma "Refresh" <stpt>
       - /equipset 189 echo Refresh <wait 3>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 9
       title: Repose
       lines:
       - /equipset 188 echo FC
       - /ma "Repose" <stnpc> <wait 3>
       - /equipset 196 echo EnfeebleMND <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 10
@@ -2098,11 +2098,11 @@
       - /equip legs "Pinga Pants"
       - /ma "Erase" <stpt>
       - /equipset 193 echo -na <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 11
-      title: ''
+      title: FCidle
       lines:
-      - ''
+      - 【/equipset】 183 echo [Idle/FC/refresh]
       - ''
       - ''
       - ''
@@ -2125,7 +2125,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Phalanx" <me> <stpt>
       - /equipset 192 echo Enhance <wait 5>
-      - /equipset 183
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 14
       title: ''
       lines:
@@ -2143,7 +2143,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Protect V" <stpt>
       - /equipset 192 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 16
       title: Shell5
       lines:
@@ -2152,7 +2152,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Shell V" <stpt>
       - /equipset 198 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 17
       title: ProtRa5
       lines:
@@ -2161,7 +2161,7 @@
       - /equip legs "Pinga Pants"
       - /ma "Protectra V" <stpt>
       - /equipset 198 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 18
       title: Shellra5
       lines:
@@ -2170,11 +2170,11 @@
       - /equip legs "Pinga Pants"
       - /ma "Shellra V" <stpt>
       - /equipset 198 echo Enhance <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 19
-      title: FC
+      title: ''
       lines:
-      - /equipset 188 echo FC
+      - ''
       - ''
       - ''
       - ''
@@ -2264,10 +2264,10 @@
       - ''
       - ''
     - index: 9
-      title: FC
+      title: ''
       lines:
-      - /equipset 188 echo FC
-      - /equip main Daybreak
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -2278,7 +2278,7 @@
       - /equip main Daybreak
       - /ma "Dispelga" <stnpc> <wait 3>
       - /equipset 196 echo EnfeebleMND <wait 3>
-      - /equipset 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
     - index: 11
@@ -2327,12 +2327,12 @@
       - ''
       - ''
     - index: 16
-      title: Silence
+      title: ''
       lines:
-      - /equip body "【インヤガジュバ+2】"
-      - /ma "Slow" <stnpc> <wait 3>
-      - /equipset 196 echo EnfeebleMND <wait 3>
-      - /equipset 183 echo Idle
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
       - ''
     - index: 17
@@ -3569,7 +3569,7 @@
       lines:
       - 【/magic】 【バブリザラ】 <stpt>
       - 【/equipset】 191 echo EnhanceBar <wait 3>
-      - 【/equipset】 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -3578,7 +3578,7 @@
       lines:
       - 【/magic】 【バファイラ】 <stpt>
       - 【/equipset】 191 echo EnhanceBar <wait 3>
-      - 【/equipset】 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -3587,7 +3587,7 @@
       lines:
       - 【/magic】 【バストンラ】 <stpt>
       - 【/equipset】 191 echo EnhanceBar <wait 3>
-      - 【/equipset】 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -3596,7 +3596,7 @@
       lines:
       - 【/magic】 【バエアロラ】 <stpt>
       - 【/equipset】 191 echo EnhanceBar <wait 3>
-      - 【/equipset】 183 echo Idle
+      - 【/equipset】 183 echo [Idle/FC/Refresh]
       - ''
       - ''
       - ''
@@ -3628,9 +3628,9 @@
       - ''
       - ''
     - index: 19
-      title: FC
+      title: ''
       lines:
-      - 【/equipset】 188 echo [FC/idle]
+      - ''
       - ''
       - ''
       - ''
@@ -3779,11 +3779,11 @@
     - index: 15
       title: d3
       lines:
-      - /equipset 168 echo
-      - '/ma "Utsusemi: San" <me> <wait 1>'
-      - '/recast "Utsusemi: San"'
-      - /equipset 164 echo
-      - '/recast "Utsusemi: Ni"'
+      - 【/equipset】 168 echo
+      - '【/magic】 "【空蝉の術】: San" <me> <wait 1>'
+      - '【/recast】 "【空蝉の術】: San"'
+      - 【/equipset】 164 echo
+      - '【/recast】 "【空蝉の術】: Ni"'
       - ''
     - index: 16
       title: Shun
@@ -3822,9 +3822,9 @@
       - '【/recast】 "Myoshu: Ichi"'
       - ''
     - index: 20
-      title: ''
+      title: Haste
       lines:
-      - ''
+      - 【/jobability】 "【ヘイストサンバ】" <me>
       - ''
       - ''
       - ''
@@ -9122,19 +9122,19 @@
     - index: 1
       title: Impetus
       lines:
-      - /recast 【インピタス】
-      - /ja Impetus <me>
-      - /recast 【チャクラ】
-      - /recast 【マントラ】
+      - 【/recast】 【インピタス】
+      - 【/jobability】 【インピタス】 <me>
+      - 【/recast】 【チャクラ】
+      - 【/recast】 【マントラ】
       - ''
       - ''
     - index: 2
       title: Focus
       lines:
-      - /recast Focus
-      - /ja Focus <me>
-      - /recast 【チャクラ】
-      - /recast 【マントラ】
+      - 【/recast】 【集中】
+      - 【/jobability】 【集中】 <me>
+      - 【/recast】 【チャクラ】
+      - 【/recast】 【マントラ】
       - ''
       - ''
     - index: 3
@@ -10929,10 +10929,10 @@
       - ''
       - ''
     - index: 20
-      title: IdlKitDT
+      title: kite☆
       lines:
-      - /equipset 63
-      - /echo [Kite set on]
+      - 【/equipset】 63 echo
+      - ''
       - ''
       - ''
       - ''
@@ -12768,7 +12768,7 @@
     - index: 1
       title: TP
       lines:
-      - 【/equipset】 84
+      - 【/equipset】 84 echo
       - ''
       - ''
       - ''
@@ -12777,9 +12777,9 @@
     - index: 2
       title: TPdt
       lines:
-      - "【/equipset】 91\0s \"Asn. Culottes +2\""
-      - "\0\x02\x02\r\x15 【フェイント】 <me>"
-      - "\0\x02\x02\r� 【フェイント】"
+      - 【/equipset】 91 echo
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -12795,7 +12795,7 @@
     - index: 4
       title: feint
       lines:
-      - /equip legs "Asn. Culottes +2"
+      - 【/equip】 【両脚】 "Asn. Culottes +2"
       - 【/jobability】 【フェイント】 <me>
       - 【/recast】 【フェイント】
       - ''
@@ -12858,7 +12858,7 @@
     - index: 11
       title: TPth
       lines:
-      - 【/equipset】 87
+      - 【/equipset】 87 echo
       - ''
       - ''
       - ''
@@ -12876,7 +12876,7 @@
     - index: 13
       title: SAsav
       lines:
-      - /ja "【不意打ち】" <me> <wait 1>
+      - 【/jobability】 "【不意打ち】" <me> <wait>
       - 【/weaponskill】 "【サベッジブレード】" <t>
       - ''
       - ''
@@ -12885,7 +12885,7 @@
     - index: 14
       title: TAsav
       lines:
-      - /ja "【だまし討ち】" <me> <wait 1>
+      - /ja "【だまし討ち】" <me> <wait>
       - 【/weaponskill】 "【サベッジブレード】" <t>
       - ''
       - ''
@@ -12913,7 +12913,7 @@
       title: Evisc
       lines:
       - 【/equipset】 85
-      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait 4>
+      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait>
       - 【/equipset】 84
       - ''
       - ''
@@ -12922,7 +12922,7 @@
       title: Rudra
       lines:
       - 【/equipset】 85
-      - 【/weaponskill】 "【ルドラストーム】" <t> <wait 4>
+      - 【/weaponskill】 "【ルドラストーム】" <t> <wait>
       - 【/equipset】 84
       - ''
       - ''
@@ -12930,7 +12930,7 @@
     - index: 19
       title: vokeTH
       lines:
-      - 【/equipset】 86 <wait 1>
+      - 【/equipset】 86 <wait>
       - 【/jobability】 【挑発】 <t> <wait>
       - 【/equipset】 84
       - ''
@@ -12940,7 +12940,7 @@
       title: Ext
       lines:
       - 【/equipset】 85
-      - 【/weaponskill】 【エクゼンテレター】 <t> <wait 4>
+      - 【/weaponskill】 【エクゼンテレター】 <t> <wait>
       - 【/equipset】 84
       - ''
       - ''
@@ -18230,9 +18230,191 @@
       - ''
       - ''
 - index: 11
-  name: Book11
+  name: DRG
   palettes:
   - index: 1
+    macros:
+    - index: 1
+      title: TP
+      lines:
+      - 【/equipset】 14 echo
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: AC
+      lines:
+      - 【/jobability】 "【エンシェントサークル】" <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: jump
+      lines:
+      - 【/jobability】 【ジャンプ】 <t>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: HighJump
+      lines:
+      - 【/jobability】 "【ハイジャンプ】" <t>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: IdleDT
+      lines:
+      - /equipset 58
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: mikaHeal
+      lines:
+      - 【/pet】 "Restoring Breath" <me>
+      - 【/echo】 <pettp>
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: miBreath
+      lines:
+      - 【/pet】 "Smiting Breath" <t>
+      - 【/echo】 <pettp>
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: Haste
+      lines:
+      - 【/jobability】 "【ヘイストサンバ】" <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: Berserk
+      lines:
+      - 【/jobability】 【バーサク】 <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: Warcry
+      lines:
+      - 【/jobability】 【ウォークライ】 <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: Agg
+      lines:
+      - 【/jobability】 【アグレッサー】 <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ImpDrive
+      lines:
+      - 【/equipset】 15 echo
+      - 【/weaponskill】 "【インパルスドライヴ】" <t> <wait>
+      - 【/equipset】 14 echo
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: Savage
+      lines:
+      - 【/weaponskill】 "【サベッジブレード】" <t>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: healMika
+      lines:
+      - /ja "Spirit Link" <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 2
     macros:
     - index: 1
       title: ''
@@ -18414,10 +18596,7 @@
       - ''
       - ''
       - ''
-- index: 12
-  name: Book12
-  palettes:
-  - index: 1
+  - index: 3
     macros:
     - index: 1
       title: ''
@@ -18522,6 +18701,1465 @@
       title: ''
       lines:
       - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 4
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 5
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 6
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 7
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 8
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 9
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: lockstyl
+      lines:
+      - 【/lockstyleset】 18
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+  - index: 10
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 13
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 14
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 15
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 16
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 17
+      title: Mikan
+      lines:
+      - 【/jobability】 "【コールワイバーン】" <me>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 18
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 19
+      title: warp★
+      lines:
+      - /equipset 1 <wait 10>
+      - /item "Warp Ring" <me>
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: kite★
+      lines:
+      - 【/equipset】 2
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+- index: 12
+  name: SAM
+  palettes:
+  - index: 1
+    macros:
+    - index: 1
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 2
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 3
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 4
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 5
+      title: Gekko
+      lines:
+      - 【/weaponskill】 "【八之太刀・月光】" <t>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 6
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 7
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 8
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 9
+      title: BladeBas
+      lines:
+      - /ja 【峰打ち】 <t>
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 10
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 11
+      title: ''
+      lines:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - index: 12
+      title: ImpDrive
+      lines:
+      - 【/weaponskill】 "【インパルスドライヴ】" <t>
       - ''
       - ''
       - ''
@@ -38653,33 +40291,33 @@
       - ''
       - ''
 - index: 24
-  name: DRGvanilla
+  name: Book24
   palettes:
   - index: 1
     macros:
     - index: 1
-      title: jump
+      title: ''
       lines:
-      - /ja jump <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: HighJump
+      title: ''
       lines:
-      - /ja "High Jump" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: AC
+      title: ''
       lines:
-      - /ja "【エンシェントサークル】" <me>
-      - /echo [Buff vs dragons]
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -38694,18 +40332,18 @@
       - ''
       - ''
     - index: 5
-      title: healMika
+      title: ''
       lines:
-      - /ja "Spirit Link" <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: Mikan
+      title: ''
       lines:
-      - /ja "【コールワイバーン】" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -38739,18 +40377,18 @@
       - ''
       - ''
     - index: 10
-      title: IdleDT
+      title: ''
       lines:
-      - /equipset 58
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 11
-      title: SB
+      title: ''
       lines:
-      - 【/weaponskill】 "Savage Blade" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -38784,27 +40422,27 @@
       - ''
       - ''
     - index: 15
-      title: Berserk
+      title: ''
       lines:
-      - /ja berserk <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: Warcry
+      title: ''
       lines:
-      - /ja warcry <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 17
-      title: Agg
+      title: ''
       lines:
-      - /ja 【アグレッサー】 <me>
+      - ''
       - ''
       - ''
       - ''
@@ -60171,41 +61809,41 @@
       - ''
       - ''
 - index: 38
-  name: BLMtmp
+  name: Book39
   palettes:
   - index: 1
     macros:
     - index: 1
-      title: pha
+      title: ''
       lines:
-      - /ma phalanx <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 2
-      title: Haste
+      title: ''
       lines:
-      - /ma Haste <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 3
-      title: blink
+      title: ''
       lines:
-      - /ma Blink <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: aqVeil
+      title: ''
       lines:
-      - /ma 【アクアベール】 <me>
+      - ''
       - ''
       - ''
       - ''
@@ -60221,11 +61859,11 @@
       - ''
       - ''
     - index: 6
-      title: MW
+      title: ''
       lines:
-      - /ja "【マナウォール】" <me>
-      - /p >>>> 【マナウォール】 <<<<<
-      - /recast "【マナウォール】"
+      - ''
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -60239,45 +61877,45 @@
       - ''
       - ''
     - index: 8
-      title: Sleep
+      title: ''
       lines:
-      - /ma "Sleep" <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 9
-      title: Sleepga2
+      title: ''
       lines:
-      - /ma "Sleepga II" <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 10
-      title: Sleepga
+      title: ''
       lines:
-      - /ma "Sleepga" <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 11
-      title: Ref
+      title: ''
       lines:
-      - /ma Refresh <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: sk
+      title: ''
       lines:
-      - /ma stoneskin <me>
+      - ''
       - ''
       - ''
       - ''
@@ -60293,29 +61931,29 @@
       - ''
       - ''
     - index: 14
-      title: Sleepga
+      title: ''
       lines:
-      - /ma "Sleepga" <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 15
-      title: Sleepga2
+      title: ''
       lines:
-      - /ma "Sleepga II" <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: Breakga
+      title: ''
       lines:
-      - /ma "Breakga" <stnpc>
-      - /recast Breakga
-      - /echo 【ブレクガ】 >> <t> <rc="【ブレクガ】">
+      - ''
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -60329,16 +61967,16 @@
       - ''
       - ''
     - index: 18
-      title: Stun
+      title: ''
       lines:
-      - /ma Stun <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 19
-      title: MP
+      title: ''
       lines:
       - ''
       - ''
@@ -60347,9 +61985,9 @@
       - ''
       - ''
     - index: 20
-      title: Death
+      title: ''
       lines:
-      - /ma "Death" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -60376,45 +62014,45 @@
       - ''
       - ''
     - index: 3
-      title: Ice3
+      title: ''
       lines:
-      - /ma "Blizzard III" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: Ice4
+      title: ''
       lines:
-      - /ma "Blizzard IV" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 5
-      title: Ice5
+      title: ''
       lines:
-      - /ma "Blizzard V" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: Ice6
+      title: ''
       lines:
-      - /ma "Blizzard VI" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 7
-      title: Iceja
+      title: ''
       lines:
-      - /ma "Blizzaja" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -60466,36 +62104,36 @@
       - ''
       - ''
     - index: 13
-      title: Thu3
+      title: ''
       lines:
-      - /ma "Thunder III" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 14
-      title: Thu4
+      title: ''
       lines:
-      - /ma "Thunder IV" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 15
-      title: Thu5
+      title: ''
       lines:
-      - /ma "Thunder V" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: Thu6
+      title: ''
       lines:
-      - /ma "Thunder VI" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -60558,46 +62196,46 @@
       - ''
       - ''
     - index: 3
-      title: Ae3
+      title: ''
       lines:
-      - /ma "Aero III" <stnpc>
-      - /recast "Aero III"
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 4
-      title: Ae4
+      title: ''
       lines:
-      - /ma "Aero IV" <stnpc>
-      - /recast "Aero IV"
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 5
-      title: Ae5
+      title: ''
       lines:
-      - /ma "Aero V" <stnpc>
-      - /recast "Aero V"
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: Ae6
+      title: ''
       lines:
-      - /ma "Aero VI" <stnpc>
-      - /recast "Aero VI"
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 7
-      title: Aeja
+      title: ''
       lines:
-      - /ma "Aeroja" <stnpc>
-      - /recast Aeroja
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -60648,46 +62286,46 @@
       - ''
       - ''
     - index: 13
-      title: Wat3
+      title: ''
       lines:
-      - /ma "Water III" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 14
-      title: Wat4
+      title: ''
       lines:
-      - /ma "Water IV" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 15
-      title: Wat5
+      title: ''
       lines:
-      - /ma "Water V" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: Wat6
+      title: ''
       lines:
-      - /ma "Water VI" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 17
-      title: Waterja
+      title: ''
       lines:
-      - /ma "Waterja" <stnpc>
-      - /recast Waterja
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -60731,63 +62369,63 @@
       - ''
       - ''
     - index: 2
-      title: Fir2
+      title: ''
       lines:
-      - /ma "Fire II" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 3
-      title: Fir3
+      title: ''
       lines:
-      - /ma "Fire III" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 4
-      title: Fir4
+      title: ''
       lines:
-      - /ma "Fire IV" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 5
-      title: Fir5
+      title: ''
       lines:
-      - /ma "Fire V" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 6
-      title: Fir6
+      title: ''
       lines:
-      - /ma "Fire VI" <stnpc>
-      - /recast "Fire III"
-      - /recast "Fire IV"
-      - /recast "Fire V"
-      - /recast "Fire II"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 7
-      title: Firja
+      title: ''
       lines:
-      - /ma "Firaja" <t> <wait 60>
-      - '/echo [Firaja] OFF '
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 8
-      title: cas
+      title: ''
       lines:
-      - /ja 【カスケード】 <me>
+      - ''
       - ''
       - ''
       - ''
@@ -60803,9 +62441,9 @@
       - ''
       - ''
     - index: 10
-      title: AssisCor
+      title: ''
       lines:
-      - /assist saruo
+      - ''
       - ''
       - ''
       - ''
@@ -60848,28 +62486,28 @@
       - ''
       - ''
     - index: 15
-      title: Stone5
+      title: ''
       lines:
-      - /ma "Stone V" <stnpc>
-      - /recast "Stone III"
-      - /recast "Stone IV"
-      - /recast "Stone V"
-      - /recast "Stoneja"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 16
-      title: Stone6
+      title: ''
       lines:
-      - /ma "Stone VI" <stnpc>
-      - /recast "Stone III"
-      - /recast "Stone IV"
-      - /recast "Stone V"
-      - /recast "Stoneja"
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 17
-      title: Stonja
+      title: ''
       lines:
-      - /ma "Stoneja" <t> <wait 60>
-      - '/echo [Stoneja] OFF '
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -61632,9 +63270,9 @@
   - index: 9
     macros:
     - index: 1
-      title: abyKey
+      title: ''
       lines:
-      - /item "Forbidden Key" <t>
+      - ''
       - ''
       - ''
       - ''
@@ -61814,9 +63452,9 @@
   - index: 10
     macros:
     - index: 1
-      title: tractor
+      title: ''
       lines:
-      - /ma tractor <t>
+      - ''
       - ''
       - ''
       - ''
@@ -61850,45 +63488,45 @@
       - ''
       - ''
     - index: 5
-      title: SubSorce
+      title: ''
       lines:
-      - /ja "Subtle Sorcery" <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 6
-      title: Manawell
+      title: ''
       lines:
-      - /ja 【魔力の雫】 <me>
-      - /echo [Manawell >> Impact]
-      - /recast Manawell
+      - ''
+      - ''
+      - ''
       - ''
       - ''
       - ''
     - index: 7
-      title: Frazzle
+      title: ''
       lines:
-      - /ma Frazzle <stnpc>
-      - /echo [Frazzle >> <t> ] Impact > Burn
+      - ''
+      - ''
       - ''
       - ''
       - ''
       - ''
     - index: 8
-      title: '>Impact'
+      title: ''
       lines:
-      - /ma Impact <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 9
-      title: Burn
+      title: ''
       lines:
-      - /ma Burn <stnpc>
+      - ''
       - ''
       - ''
       - ''
@@ -61904,27 +63542,27 @@
       - ''
       - ''
     - index: 11
-      title: sneak
+      title: ''
       lines:
-      - /ma sneak <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: inv
+      title: ''
       lines:
-      - /ma invisible <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: Sub
+      title: ''
       lines:
-      - /ja 【机上演習】 <me>
+      - ''
       - ''
       - ''
       - ''
@@ -61940,54 +63578,54 @@
       - ''
       - ''
     - index: 15
-      title: Aspir
+      title: ''
       lines:
-      - /ma "Aspir" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: Aspir2
+      title: ''
       lines:
-      - /ma "Aspir II" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 17
-      title: Aspir3
+      title: ''
       lines:
-      - /ma "Aspir III" <t>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 18
-      title: Dispel
+      title: ''
       lines:
-      - /ma dispel <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 19
-      title: Dispelga
+      title: ''
       lines:
-      - /ma dispelga <stnpc>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 20
-      title: DT/kit
+      title: ''
       lines:
-      - /equipset 103
+      - ''
       - ''
       - ''
       - ''
