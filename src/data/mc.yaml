@@ -1,4 +1,4 @@
-# 2026-06-06 21:06:47
+# 2026-06-06 22:27:45
 - index: 1
   name: BLM
   palettes:
@@ -235,7 +235,7 @@
       title: Ice5♪
       lines:
       - 【/magic】 "【ブリザド】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ブリザド】 V"
       - ''
@@ -325,7 +325,7 @@
       title: San5♪
       lines:
       - 【/magic】 "【サンダー】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【サンダー】 V"
       - ''
@@ -417,7 +417,7 @@
       title: Aer5♪
       lines:
       - 【/magic】 "【エアロ】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【エアロ】 V"
       - ''
@@ -507,7 +507,7 @@
       title: Wat5♪
       lines:
       - 【/magic】 "【ウォータ】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ウォータ】 V"
       - ''
@@ -599,7 +599,7 @@
       title: Fir5♪
       lines:
       - 【/magic】 "【ファイア】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ファイア】 V"
       - ''
@@ -689,7 +689,7 @@
       title: Ston5♪
       lines:
       - 【/magic】 "【ストーン】 V" <stnpc>
-      - 【/equipset】 106 <wait 4> echo [Nuke]
+      - 【/equipset】 106 <wait 3> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
       - 【/recast】 "【ストーン】 V"
       - ''
@@ -3714,10 +3714,10 @@
       - ''
       - ''
     - index: 8
-      title: InSnea♪
+      title: ''
       lines:
-      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
-      - 【/equipset】 163
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -4015,9 +4015,9 @@
   - index: 3
     macros:
     - index: 1
-      title: ''
+      title: h2h
       lines:
-      - ''
+      - 【/equip】 【メインウェポン】 karambit
       - ''
       - ''
       - ''
@@ -5433,10 +5433,10 @@
       - ''
       - ''
     - index: 17
-      title: ''
+      title: warp★
       lines:
-      - ''
-      - ''
+      - 【/equipset】 1 <wait 10>
+      - 【/item】 "Warp Ring" <me>
       - ''
       - ''
       - ''
@@ -5451,10 +5451,10 @@
       - ''
       - ''
     - index: 19
-      title: warp★
+      title: InSnea♪
       lines:
-      - 【/equipset】 1 <wait 10>
-      - 【/item】 "Warp Ring" <me>
+      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
+      - "【/equipset】 163\0p Ring\" <me>"
       - ''
       - ''
       - ''
