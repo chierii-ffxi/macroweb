@@ -1,4 +1,4 @@
-# 2026-06-06 22:27:45
+# 2026-06-10 08:46:26
 - index: 1
   name: BLM
   palettes:
@@ -7,7 +7,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 echo [FC/idle/DT]
+      - 【/equipset】 101 echo [FC/idle/DT]
       - ''
       - ''
       - ''
@@ -32,10 +32,10 @@
       - ''
       - ''
     - index: 4
-      title: Blink
+      title: Refresh
       lines:
-      - 【/magic】 【ブリンク】 <stpt>
-      - 【/equipset】 112 <wait 2> echo [Enhancing]
+      - 【/magic】 【リフレシュ】 <stpt>
+      - "/equipset 115 <wait 3>\0o [Enhancing]"
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -77,10 +77,10 @@
       - ''
       - ''
     - index: 9
-      title: Refresh
+      title: Blink
       lines:
-      - 【/magic】 【リフレシュ】 <stpt>
-      - /equipset 115 <wait 3>
+      - 【/magic】 【ブリンク】 <stpt>
+      - 【/equipset】 112 <wait 2> echo [Enhancing]
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
@@ -97,7 +97,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -189,7 +189,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - 【/equipset】 103 echo [FC/idle/DT]
+      - 【/equipset】 101 echo [FC/idle/DT]
       - ''
       - ''
       - ''
@@ -279,7 +279,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -371,7 +371,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -461,7 +461,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -553,7 +553,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -632,18 +632,18 @@
       - ''
       - ''
     - index: 10
-      title: Wat6rec
+      title: Fir6rec
       lines:
-      - 【/magic】 "【ウォータ】 VI" <stnpc>
+      - 【/magic】 "Fire VI" <stnpc>
       - 【/equipset】 116 <wait 4> echo [Nuke]
       - 【/equipset】 103 echo [Aftercast]
-      - 【/recast】 "【ウォータ】 VI"
+      - 【/recast】 "Fire VI"
       - ''
       - ''
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -735,7 +735,7 @@
     - index: 1
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -825,7 +825,7 @@
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 103 echo [FC/idle/DT]\0ercast]"
+      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
       - ''
       - ''
       - ''
@@ -1735,19 +1735,19 @@
     - index: 11
       title: Sneak
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【スニーク】 <stpt>
       - 【/equipset】 112 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
       - ''
       - ''
+      - ''
     - index: 12
       title: Invisibl
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【インビジ】 <stpt>
       - 【/equipset】 112 <wait 2>
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 13
@@ -5550,7 +5550,7 @@
       lines:
       - /equip range "Marsyas" <wait>
       - /ma "Honor March" <stpt>
-      - /equipset 130 echo Honor Effect <wait 5>
+      - /equipset 130 echo Honor Effect <wait 6>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -7283,9 +7283,9 @@
       - ''
       - ''
     - index: 20
-      title: kite
+      title: kite☆
       lines:
-      - /equipset 123
+      - 【/equipset】 123 echo
       - ''
       - ''
       - ''
@@ -12734,15 +12734,6 @@
       - ''
       - ''
     - index: 18
-      title: ''
-      lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-    - index: 19
       title: Invis♪
       lines:
       - 【/equipset】 74
@@ -12751,12 +12742,21 @@
       - ''
       - ''
       - ''
-    - index: 20
-      title: kite★
+    - index: 19
+      title: cJig♪
       lines:
       - 【/equipset】 74
       - 【/jobability】 "【チョコボジグ】 II" <me> <wait>
       - 【/recast】 "【チョコボジグ】"
+      - ''
+      - ''
+      - ''
+    - index: 20
+      title: kite★
+      lines:
+      - 【/equipset】 74
+      - 【/recast】 "【チョコボジグ】"
+      - ''
       - ''
       - ''
       - ''
@@ -14718,7 +14718,7 @@
       title: Trueflig
       lines:
       - 【/equipset】 158 echo
-      - 【/weaponskill】 【トゥルーフライト】 <t> <wait 4>
+      - 【/weaponskill】 【トゥルーフライト】 <t> <wait>
       - 【/equipset】 155 echo [Engaged TP]
       - ''
       - ''
@@ -14751,11 +14751,11 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: <st>TruF
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 158 echo
+      - 【/weaponskill】 【トゥルーフライト】 <stnpc> <wait>
+      - 【/equipset】 155 echo [Engaged TP]
       - ''
       - ''
       - ''
