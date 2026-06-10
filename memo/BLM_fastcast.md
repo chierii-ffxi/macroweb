@@ -30,7 +30,7 @@ Refresh-prio. variant:
 * **Ammo:** Homiliary Refresh +1
 * **Ring1:** Stikini+1 Refresh +1
 * **Ring2:** Stikini+1 Refresh +1
-* **Waist:** Null Belt (Regen, Meva)
+* **Waist:** Fucho Belt (Refresh +1 if MP < 50%)
 * **Head:** Wicce Petsos +2 (DT 10 %)
 * **Body:** (idk. maybe Wicce Coat +3 Refresh +4 MEva +141)
 * **Feet:** Wicce Sabots +3 (DT 11 %)
