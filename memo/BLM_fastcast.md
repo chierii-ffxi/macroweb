@@ -27,7 +27,7 @@ Targeting the **80% Hard Cap** for Precast sets.
 Refresh-prio. variant:
 
 * **Sub:** Khonsu (DT 6%)
-* **Ammo:** Crep. (DT 3%)
+* **Ammo:** Homiliary Refresh +1
 * **Ring1:** Stikini+1 Refresh +1
 * **Ring2:** Stikini+1 Refresh +1
 * **Waist:** Null Belt (Regen, Meva)
